@@ -1,0 +1,26 @@
+.btn-toolbar{
+  margin: 0 auto;
+}
+
+
+.tool-top .tool-item:first-child, .tool-bottom .tool-item:first-child{
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+.tool-top .tool-item:last-child, .tool-bottom .tool-item:last-child{
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.tool-left .tool-item:first-child, .tool-right .tool-item:first-child{
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.tool-left .tool-item:last-child, .tool-right .tool-item:last-child{
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.btn-toolbar i{
+	margin-right:0;
+}

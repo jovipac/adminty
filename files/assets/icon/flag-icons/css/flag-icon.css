@@ -1,0 +1,1545 @@
+.flag-icon-background {
+    background-position: 50% center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    float: none;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+.flag-icon {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  width: 1.33333333em;
+  line-height: 1em;
+}
+
+/* .flag-wrapper{
+  border: 1px solid #10f;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 15px;
+} */
+/* .flag-wrapper .flag-icon-background{
+  text-align: center;
+} */
+/* .flag .flag-icon-background{
+  margin: 0 auto;
+} */
+
+.flag-icon:before {
+  content: "\00a0";
+}
+
+
+.flag-icon.flag-icon-squared {
+  width: 1em;
+}
+.flag-icon-ad {
+  background-image: url(../fonts/ad.svg);
+}
+.flag-icon-AED {
+  background-image: url(../fonts/ae.svg);
+}
+.flag-icon-ae.flag-icon-squared {
+  background-image: url(../fonts/ae.svg);
+}
+.flag-icon-af {
+  background-image: url(../fonts/af.svg);
+}
+.flag-icon-af.flag-icon-squared {
+  background-image: url(../fonts/af.svg);
+}
+.flag-icon-ag {
+  background-image: url(../fonts/ag.svg);
+}
+.flag-icon-ag.flag-icon-squared {
+  background-image: url(../fonts/ag.svg);
+}
+.flag-icon-ai {
+  background-image: url(../fonts/ai.svg);
+}
+.flag-icon-ai.flag-icon-squared {
+  background-image: url(../fonts/ai.svg);
+}
+.flag-icon-al {
+  background-image: url(../fonts/al.svg);
+}
+.flag-icon-al.flag-icon-squared {
+  background-image: url(../fonts/al.svg);
+}
+.flag-icon-am {
+  background-image: url(../fonts/am.svg);
+}
+.flag-icon-am.flag-icon-squared {
+  background-image: url(../fonts/am.svg);
+}
+.flag-icon-ao {
+  background-image: url(../fonts/ao.svg);
+}
+.flag-icon-ao.flag-icon-squared {
+  background-image: url(../fonts/ao.svg);
+}
+.flag-icon-aq {
+  background-image: url(../fonts/aq.svg);
+}
+.flag-icon-aq.flag-icon-squared {
+  background-image: url(../fonts/aq.svg);
+}
+.flag-icon-ARS {
+  background-image: url(../fonts/ar.svg);
+}
+.flag-icon-ar.flag-icon-squared {
+  background-image: url(../fonts/ar.svg);
+}
+.flag-icon-as {
+  background-image: url(../fonts/as.svg);
+}
+.flag-icon-as.flag-icon-squared {
+  background-image: url(../fonts/as.svg);
+}
+.flag-icon-at {
+  background-image: url(../fonts/at.svg);
+}
+.flag-icon-at.flag-icon-squared {
+  background-image: url(../fonts/at.svg);
+}
+.flag-icon-au {
+  background-image: url(../fonts/au.svg);
+}
+.flag-icon-au.flag-icon-squared {
+  background-image: url(../fonts/au.svg);
+}
+.flag-icon-aw {
+  background-image: url(../fonts/aw.svg);
+}
+.flag-icon-aw.flag-icon-squared {
+  background-image: url(../fonts/aw.svg);
+}
+.flag-icon-ax {
+  background-image: url(../fonts/ax.svg);
+}
+.flag-icon-ax.flag-icon-squared {
+  background-image: url(../fonts/ax.svg);
+}
+.flag-icon-az {
+  background-image: url(../fonts/az.svg);
+}
+.flag-icon-az.flag-icon-squared {
+  background-image: url(../fonts/az.svg);
+}
+.flag-icon-ba {
+  background-image: url(../fonts/ba.svg);
+}
+.flag-icon-ba.flag-icon-squared {
+  background-image: url(../fonts/ba.svg);
+}
+.flag-icon-BBD {
+  background-image: url(../fonts/bb.svg);
+}
+.flag-icon-bb.flag-icon-squared {
+  background-image: url(../fonts/bb.svg);
+}
+.flag-icon-bd {
+  background-image: url(../fonts/bd.svg);
+}
+.flag-icon-bd.flag-icon-squared {
+  background-image: url(../fonts/bd.svg);
+}
+.flag-icon-be {
+  background-image: url(../fonts/be.svg);
+}
+.flag-icon-be.flag-icon-squared {
+  background-image: url(../fonts/be.svg);
+}
+.flag-icon-bf {
+  background-image: url(../fonts/bf.svg);
+}
+.flag-icon-bf.flag-icon-squared {
+  background-image: url(../fonts/bf.svg);
+}
+.flag-icon-BGN {
+  background-image: url(../fonts/bg.svg);
+}
+.flag-icon-bg.flag-icon-squared {
+  background-image: url(../fonts/bg.svg);
+}
+.flag-icon-BHD {
+  background-image: url(../fonts/bh.svg);
+}
+.flag-icon-bh.flag-icon-squared {
+  background-image: url(../fonts/bh.svg);
+}
+.flag-icon-bi {
+  background-image: url(../fonts/bi.svg);
+}
+.flag-icon-bi.flag-icon-squared {
+  background-image: url(../fonts/bi.svg);
+}
+.flag-icon-bj {
+  background-image: url(../fonts/bj.svg);
+}
+.flag-icon-bj.flag-icon-squared {
+  background-image: url(../fonts/bj.svg);
+}
+.flag-icon-bl {
+  background-image: url(../fonts/bl.svg);
+}
+.flag-icon-bl.flag-icon-squared {
+  background-image: url(../fonts/bl.svg);
+}
+.flag-icon-BMD {
+  background-image: url(../fonts/bm.svg);
+}
+.flag-icon-bm.flag-icon-squared {
+  background-image: url(../fonts/bm.svg);
+}
+.flag-icon-BND {
+  background-image: url(../fonts/bn.svg);
+}
+.flag-icon-bn.flag-icon-squared {
+  background-image: url(../fonts/bn.svg);
+}
+.flag-icon-bo {
+  background-image: url(../fonts/bo.svg);
+}
+.flag-icon-bo.flag-icon-squared {
+  background-image: url(../fonts/bo.svg);
+}
+.flag-icon-bq {
+  background-image: url(../fonts/bq.svg);
+}
+.flag-icon-bq.flag-icon-squared {
+  background-image: url(../fonts/bq.svg);
+}
+.flag-icon-BRL.flag-icon-bsflag-icon-bs {
+  background-image: url(../fonts/br.svg);
+}
+.flag-icon-br.flag-icon-squared {
+  background-image: url(../fonts/br.svg);
+}
+.flag-icon-BSD{
+  background-image: url(../fonts/bs.svg);
+}
+.flag-icon-bs.flag-icon-squared {
+  background-image: url(../fonts/bs.svg);
+}
+.flag-icon-bt {
+  background-image: url(../fonts/bt.svg);
+}
+.flag-icon-bt.flag-icon-squared {
+  background-image: url(../fonts/bt.svg);
+}
+.flag-icon-bv {
+  background-image: url(../fonts/bv.svg);
+}
+.flag-icon-bv.flag-icon-squared {
+  background-image: url(../fonts/bv.svg);
+}
+.flag-icon-BWP {
+  background-image: url(../fonts/bw.svg);
+}
+.flag-icon-bw.flag-icon-squared {
+  background-image: url(../fonts/bw.svg);
+}
+.flag-icon-by {
+  background-image: url(../fonts/by.svg);
+}
+.flag-icon-by.flag-icon-squared {
+  background-image: url(../fonts/by.svg);
+}
+.flag-icon-BZD {
+  background-image: url(../fonts/bz.svg);
+}
+.flag-icon-bz.flag-icon-squared {
+  background-image: url(../fonts/bz.svg);
+}
+.flag-icon-CAD {
+  background-image: url(../fonts/ca.svg);
+}
+.flag-icon-ca.flag-icon-squared {
+  background-image: url(../fonts/ca.svg);
+}
+.flag-icon-cc {
+  background-image: url(../fonts/cc.svg);
+}
+.flag-icon-cc.flag-icon-squared {
+  background-image: url(../fonts/cc.svg);
+}
+.flag-icon-cd {
+  background-image: url(../fonts/cd.svg);
+}
+.flag-icon-cd.flag-icon-squared {
+  background-image: url(../fonts/cd.svg);
+}
+.flag-icon-cf {
+  background-image: url(../fonts/cf.svg);
+}
+.flag-icon-cf.flag-icon-squared {
+  background-image: url(../fonts/cf.svg);
+}
+.flag-icon-cg {
+  background-image: url(../fonts/cg.svg);
+}
+.flag-icon-cg.flag-icon-squared {
+  background-image: url(../fonts/cg.svg);
+}
+.flag-icon-CHF {
+  background-image: url(../fonts/ch.svg);
+}
+.flag-icon-ch.flag-icon-squared {
+  background-image: url(../fonts/ch.svg);
+}
+.flag-icon-ci {
+  background-image: url(../fonts/ci.svg);
+}
+.flag-icon-ci.flag-icon-squared {
+  background-image: url(../fonts/ci.svg);
+}
+.flag-icon-ck {
+  background-image: url(../fonts/ck.svg);
+}
+.flag-icon-ck.flag-icon-squared {
+  background-image: url(../fonts/ck.svg);
+}
+.flag-icon-CLP {
+  background-image: url(../fonts/cl.svg);
+}
+.flag-icon-cl.flag-icon-squared {
+  background-image: url(../fonts/cl.svg);
+}
+.flag-icon-cm {
+  background-image: url(../fonts/cm.svg);
+}
+.flag-icon-cm.flag-icon-squared {
+  background-image: url(../fonts/cm.svg);
+}
+.flag-icon-CNY {
+  background-image: url(../fonts/cn.svg);
+}
+.flag-icon-cn.flag-icon-squared {
+  background-image: url(../fonts/cn.svg);
+}
+.flag-icon-COP {
+  background-image: url(../fonts/co.svg);
+}
+.flag-icon-co.flag-icon-squared {
+  background-image: url(../fonts/co.svg);
+}
+.flag-icon-CRC {
+  background-image: url(../fonts/cr.svg);
+}
+.flag-icon-cr.flag-icon-squared {
+  background-image: url(../fonts/cr.svg);
+}
+.flag-icon-cu {
+  background-image: url(../fonts/cu.svg);
+}
+.flag-icon-cu.flag-icon-squared {
+  background-image: url(../fonts/cu.svg);
+}
+.flag-icon-cv {
+  background-image: url(../fonts/cv.svg);
+}
+.flag-icon-cv.flag-icon-squared {
+  background-image: url(../fonts/cv.svg);
+}
+.flag-icon-cw {
+  background-image: url(../fonts/cw.svg);
+}
+.flag-icon-cw.flag-icon-squared {
+  background-image: url(../fonts/cw.svg);
+}
+.flag-icon-cx {
+  background-image: url(../fonts/cx.svg);
+}
+.flag-icon-cx.flag-icon-squared {
+  background-image: url(../fonts/cx.svg);
+}
+.flag-icon-cy {
+  background-image: url(../fonts/cy.svg);
+}
+.flag-icon-cy.flag-icon-squared {
+  background-image: url(../fonts/cy.svg);
+}
+.flag-icon-CZK  {
+  background-image: url(../fonts/cz.svg);
+}
+.flag-icon-cz.flag-icon-squared {
+  background-image: url(../fonts/cz.svg);
+}
+.flag-icon-de {
+  background-image: url(../fonts/de.svg);
+}
+.flag-icon-de.flag-icon-squared {
+  background-image: url(../fonts/de.svg);
+}
+.flag-icon-dj {
+  background-image: url(../fonts/dj.svg);
+}
+.flag-icon-dj.flag-icon-squared {
+  background-image: url(../fonts/dj.svg);
+}
+.flag-icon-DKK {
+  background-image: url(../fonts/dk.svg);
+}
+.flag-icon-dk.flag-icon-squared {
+  background-image: url(../fonts/dk.svg);
+}
+.flag-icon-dm {
+  background-image: url(../fonts/dm.svg);
+}
+.flag-icon-dm.flag-icon-squared {
+  background-image: url(../fonts/dm.svg);
+}
+.flag-icon-DOP {
+  background-image: url(../fonts/do.svg);
+}
+.flag-icon-do.flag-icon-squared {
+  background-image: url(../fonts/do.svg);
+}
+.flag-icon-dz {
+  background-image: url(../fonts/dz.svg);
+}
+.flag-icon-ee
+.flag-icon-dz.flag-icon-squared {
+  background-image: url(../fonts/dz.svg);
+}
+.flag-icon-ec {
+  background-image: url(../fonts/ec.svg);
+}
+.flag-icon-ec.flag-icon-squared {
+  background-image: url(../fonts/ec.svg);
+}
+.flag-icon-EEK  {
+  background-image: url(../fonts/ee.svg);
+}
+.flag-icon-ee.flag-icon-squared {
+  background-image: url(../fonts/ee.svg);
+}
+.flag-icon-EGP {
+  background-image: url(../fonts/eg.svg);
+}
+.flag-icon-eg.flag-icon-squared {
+  background-image: url(../fonts/eg.svg);
+}
+.flag-icon-eh {
+  background-image: url(../fonts/eh.svg);
+}
+.flag-icon-eh.flag-icon-squared {
+  background-image: url(../fonts/eh.svg);
+}
+.flag-icon-er {
+  background-image: url(../fonts/er.svg);
+}
+.flag-icon-er.flag-icon-squared {
+  background-image: url(../fonts/er.svg);
+}
+.flag-icon-es {
+  background-image: url(../fonts/es.svg);
+}
+.flag-icon-es.flag-icon-squared {
+  background-image: url(../fonts/es.svg);
+}
+.flag-icon-et {
+  background-image: url(../fonts/et.svg);
+}
+.flag-icon-et.flag-icon-squared {
+  background-image: url(../fonts/et.svg);
+}
+.flag-icon-fi {
+  background-image: url(../fonts/fi.svg);
+}
+.flag-icon-fi.flag-icon-squared {
+  background-image: url(../fonts/fi.svg);
+}
+.flag-icon-FJD {
+  background-image: url(../fonts/fj.svg);
+}
+.flag-icon-fj.flag-icon-squared {
+  background-image: url(../fonts/fj.svg);
+}
+.flag-icon-fk {
+  background-image: url(../fonts/fk.svg);
+}
+.flag-icon-fk.flag-icon-squared {
+  background-image: url(../fonts/fk.svg);
+}
+.flag-icon-fm {
+  background-image: url(../fonts/fm.svg);
+}
+.flag-icon-fm.flag-icon-squared {
+  background-image: url(../fonts/fm.svg);
+}
+.flag-icon-fo {
+  background-image: url(../fonts/fo.svg);
+}
+.flag-icon-fo.flag-icon-squared {
+  background-image: url(../fonts/fo.svg);
+}
+.flag-icon-fr {
+  background-image: url(../fonts/fr.svg);
+}
+.flag-icon-fr.flag-icon-squared {
+  background-image: url(../fonts/fr.svg);
+}
+.flag-icon-ga {
+  background-image: url(../fonts/ga.svg);
+}
+.flag-icon-ga.flag-icon-squared {
+  background-image: url(../fonts/ga.svg);
+}
+.flag-icon-gb {
+  background-image: url(../fonts/gb.svg);
+}
+.flag-icon-gb.flag-icon-squared {
+  background-image: url(../fonts/gb.svg);
+}
+.flag-icon-gd {
+  background-image: url(../fonts/gd.svg);
+}
+.flag-icon-gd.flag-icon-squared {
+  background-image: url(../fonts/gd.svg);
+}
+.flag-icon-ge {
+  background-image: url(../fonts/ge.svg);
+}
+.flag-icon-ge.flag-icon-squared {
+  background-image: url(../fonts/ge.svg);
+}
+.flag-icon-gf {
+  background-image: url(../fonts/gf.svg);
+}
+.flag-icon-gf.flag-icon-squared {
+  background-image: url(../fonts/gf.svg);
+}
+.flag-icon-gg {
+  background-image: url(../fonts/gg.svg);
+}
+.flag-icon-gg.flag-icon-squared {
+  background-image: url(../fonts/gg.svg);
+}
+.flag-icon-gh {
+  background-image: url(../fonts/gh.svg);
+}
+.flag-icon-gh.flag-icon-squared {
+  background-image: url(../fonts/gh.svg);
+}
+.flag-icon-gi {
+  background-image: url(../fonts/gi.svg);
+}
+.flag-icon-gi.flag-icon-squared {
+  background-image: url(../fonts/gi.svg);
+}
+.flag-icon-gl {
+  background-image: url(../fonts/gl.svg);
+}
+.flag-icon-gl.flag-icon-squared {
+  background-image: url(../fonts/gl.svg);
+}
+.flag-icon-GMD {
+  background-image: url(../fonts/gm.svg);
+}
+.flag-icon-gm.flag-icon-squared {
+  background-image: url(../fonts/gm.svg);
+}
+.flag-icon-gn {
+  background-image: url(../fonts/gn.svg);
+}
+.flag-icon-gn.flag-icon-squared {
+  background-image: url(../fonts/gn.svg);
+}
+.flag-icon-gp {
+  background-image: url(../fonts/gp.svg);
+}
+.flag-icon-gp.flag-icon-squared {
+  background-image: url(../fonts/gp.svg);
+}
+.flag-icon-gq {
+  background-image: url(../fonts/gq.svg);
+}
+.flag-icon-gq.flag-icon-squared {
+  background-image: url(../fonts/gq.svg);
+}
+.flag-icon-gr {
+  background-image: url(../fonts/gr.svg);
+}
+.flag-icon-gr.flag-icon-squared {
+  background-image: url(../fonts/gr.svg);
+}
+.flag-icon-gs {
+  background-image: url(../fonts/gs.svg);
+}
+.flag-icon-gs.flag-icon-squared {
+  background-image: url(../fonts/gs.svg);
+}
+.flag-icon-GTQ {
+  background-image: url(../fonts/gt.svg);
+}
+.flag-icon-gt.flag-icon-squared {
+  background-image: url(../fonts/gt.svg);
+}
+.flag-icon-gu {
+  background-image: url(../fonts/gu.svg);
+}
+.flag-icon-gu.flag-icon-squared {
+  background-image: url(../fonts/gu.svg);
+}
+.flag-icon-gw {
+  background-image: url(../fonts/gw.svg);
+}
+.flag-icon-gw.flag-icon-squared {
+  background-image: url(../fonts/gw.svg);
+}
+.flag-icon-gy {
+  background-image: url(../fonts/gy.svg);
+}
+.flag-icon-gy.flag-icon-squared {
+  background-image: url(../fonts/gy.svg);
+}
+.flag-icon-HKD {
+  background-image: url(../fonts/hk.svg);
+}
+.flag-icon-hk.flag-icon-squared {
+  background-image: url(../fonts/hk.svg);
+}
+.flag-icon-AUD {
+  background-image: url(../fonts/hm.svg);
+}
+.flag-icon-hm.flag-icon-squared {
+  background-image: url(../fonts/hm.svg);
+}
+.flag-icon-hn {
+  background-image: url(../fonts/hn.svg);
+}
+.flag-icon-hn.flag-icon-squared {
+  background-image: url(../fonts/hn.svg);
+}
+.flag-icon-HRK {
+  background-image: url(../fonts/hr.svg);
+}
+.flag-icon-hr.flag-icon-squared {
+  background-image: url(../fonts/hr.svg);
+}
+.flag-icon-ht {
+  background-image: url(../fonts/ht.svg);
+}
+.flag-icon-ht.flag-icon-squared {
+  background-image: url(../fonts/ht.svg);
+}
+.flag-icon-HUF  {
+  background-image: url(../fonts/hu.svg);
+}
+.flag-icon-hu.flag-icon-squared {
+  background-image: url(../fonts/hu.svg);
+}
+.flag-icon-IDR {
+  background-image: url(../fonts/id.svg);
+}
+.flag-icon-id.flag-icon-squared {
+  background-image: url(../fonts/id.svg);
+}
+.flag-icon-ie {
+  background-image: url(../fonts/ie.svg);
+}
+.flag-icon-ie.flag-icon-squared {
+  background-image: url(../fonts/ie.svg);
+}
+.flag-icon-ILS {
+  background-image: url(../fonts/il.svg);
+}
+.flag-icon-il.flag-icon-squared {
+  background-image: url(../fonts/il.svg);
+}
+.flag-icon-im {
+  background-image: url(../fonts/im.svg);
+}
+.flag-icon-im.flag-icon-squared {
+  background-image: url(../fonts/im.svg);
+}
+.flag-icon-INR {
+  background-image: url(../fonts/in.svg);
+}
+
+.flag-icon-io {
+  background-image: url(../fonts/io.svg);
+}
+.flag-icon-io.flag-icon-squared {
+  background-image: url(../fonts/io.svg);
+}
+.flag-icon-iq {
+  background-image: url(../fonts/iq.svg);
+}
+.flag-icon-iq.flag-icon-squared {
+  background-image: url(../fonts/iq.svg);
+}
+.flag-icon-ir {
+  background-image: url(../fonts/ir.svg);
+}
+.flag-icon-ir.flag-icon-squared {
+  background-image: url(../fonts/ir.svg);
+}
+.flag-icon-ISK {
+  background-image: url(../fonts/is.svg);
+}
+.flag-icon-is.flag-icon-squared {
+  background-image: url(../fonts/is.svg);
+}
+.flag-icon-it {
+  background-image: url(../fonts/it.svg);
+}
+.flag-icon-it.flag-icon-squared {
+  background-image: url(../fonts/it.svg);
+}
+.flag-icon-je {
+  background-image: url(../fonts/je.svg);
+}
+.flag-icon-je.flag-icon-squared {
+  background-image: url(../fonts/je.svg);
+}
+.flag-icon-JMD {
+  background-image: url(../fonts/jm.svg);
+}
+.flag-icon-jm.flag-icon-squared {
+  background-image: url(../fonts/jm.svg);
+}
+.flag-icon-JOD {
+  background-image: url(../fonts/jo.svg);
+}
+.flag-icon-jo.flag-icon-squared {
+  background-image: url(../fonts/jo.svg);
+}
+.flag-icon-JPY {
+  background-image: url(../fonts/jp.svg);
+}
+.flag-icon-jp.flag-icon-squared {
+  background-image: url(../fonts/jp.svg);
+}
+.flag-icon-KES {
+  background-image: url(../fonts/ke.svg);
+}
+.flag-icon-ke.flag-icon-squared {
+  background-image: url(../fonts/ke.svg);
+}
+.flag-icon-kg {
+  background-image: url(../fonts/kg.svg);
+}
+.flag-icon-kg.flag-icon-squared {
+  background-image: url(../fonts/kg.svg);
+}
+.flag-icon-kh {
+  background-image: url(../fonts/kh.svg);
+}
+.flag-icon-kh.flag-icon-squared {
+  background-image: url(../fonts/kh.svg);
+}
+.flag-icon-ki {
+  background-image: url(../fonts/ki.svg);
+}
+.flag-icon-ki.flag-icon-squared {
+  background-image: url(../fonts/ki.svg);
+}
+.flag-icon-km {
+  background-image: url(../fonts/km.svg);
+}
+.flag-icon-km.flag-icon-squared {
+  background-image: url(../fonts/km.svg);
+}
+.flag-icon-kn {
+  background-image: url(../fonts/kn.svg);
+}
+.flag-icon-kn.flag-icon-squared {
+  background-image: url(../fonts/kn.svg);
+}
+.flag-icon-kp {
+  background-image: url(../fonts/kp.svg);
+}
+.flag-icon-kp.flag-icon-squared {
+  background-image: url(../fonts/kp.svg);
+}
+.flag-icon-KRW {
+  background-image: url(../fonts/kr.svg);
+}
+.flag-icon-kr.flag-icon-squared {
+  background-image: url(../fonts/kr.svg);
+}
+.flag-icon-KWD {
+  background-image: url(../fonts/kw.svg);
+}
+.flag-icon-kw.flag-icon-squared {
+  background-image: url(../fonts/kw.svg);
+}
+.flag-icon-KYD {
+  background-image: url(../fonts/ky.svg);
+}
+.flag-icon-ky.flag-icon-squared {
+  background-image: url(../fonts/ky.svg);
+}
+.flag-icon-kz {
+  background-image: url(../fonts/kz.svg);
+}
+.flag-icon-kz.flag-icon-squared {
+  background-image: url(../fonts/kz.svg);
+}
+.flag-icon-la {
+  background-image: url(../fonts/la.svg);
+}
+.flag-icon-la.flag-icon-squared {
+  background-image: url(../fonts/la.svg);
+}
+.flag-icon-LBP {
+  background-image: url(../fonts/lb.svg);
+}
+.flag-icon-lb.flag-icon-squared {
+  background-image: url(../fonts/lb.svg);
+}
+.flag-icon-lc {
+  background-image: url(../fonts/lc.svg);
+}
+.flag-icon-lc.flag-icon-squared {
+  background-image: url(../fonts/lc.svg);
+}
+.flag-icon-li {
+  background-image: url(../fonts/li.svg);
+}
+.flag-icon-li.flag-icon-squared {
+  background-image: url(../fonts/li.svg);
+}
+.flag-icon-LKR {
+  background-image: url(../fonts/lk.svg);
+}
+.flag-icon-lk.flag-icon-squared {
+  background-image: url(../fonts/lk.svg);
+}
+.flag-icon-lr {
+  background-image: url(../fonts/lr.svg);
+}
+.flag-icon-lr.flag-icon-squared {
+  background-image: url(../fonts/lr.svg);
+}
+.flag-icon-ls {
+  background-image: url(../fonts/ls.svg);
+}
+.flag-icon-ls.flag-icon-squared {
+  background-image: url(../fonts/ls.svg);
+}
+.flag-icon-LTL {
+  background-image: url(../fonts/lt.svg);
+}
+.flag-icon-lt.flag-icon-squared {
+  background-image: url(../fonts/lt.svg);
+}
+.flag-icon-lu {
+  background-image: url(../fonts/lu.svg);
+}
+.flag-icon-lu.flag-icon-squared {
+  background-image: url(../fonts/lu.svg);
+}
+.flag-icon-LVL {
+  background-image: url(../fonts/lv.svg);
+}
+.flag-icon-lv.flag-icon-squared {
+  background-image: url(../fonts/lv.svg);
+}
+.flag-icon-ly {
+  background-image: url(../fonts/ly.svg);
+}
+.flag-icon-ly.flag-icon-squared {
+  background-image: url(../fonts/ly.svg);
+}
+.flag-icon-MAD {
+  background-image: url(../fonts/ma.svg);
+}
+.flag-icon-ma.flag-icon-squared {
+  background-image: url(../fonts/ma.svg);
+}
+.flag-icon-mc {
+  background-image: url(../fonts/mc.svg);
+}
+.flag-icon-mc.flag-icon-squared {
+  background-image: url(../fonts/mc.svg);
+}
+.flag-icon-md {
+  background-image: url(../fonts/md.svg);
+}
+.flag-icon-md.flag-icon-squared {
+  background-image: url(../fonts/md.svg);
+}
+.flag-icon-me {
+  background-image: url(../fonts/me.svg);
+}
+.flag-icon-me.flag-icon-squared {
+  background-image: url(../fonts/me.svg);
+}
+.flag-icon-mf {
+  background-image: url(../fonts/mf.svg);
+}
+.flag-icon-mf.flag-icon-squared {
+  background-image: url(../fonts/mf.svg);
+}
+.flag-icon-mg {
+  background-image: url(../fonts/mg.svg);
+}
+.flag-icon-mg.flag-icon-squared {
+  background-image: url(../fonts/mg.svg);
+}
+.flag-icon-mh {
+  background-image: url(../fonts/mh.svg);
+}
+.flag-icon-mh.flag-icon-squared {
+  background-image: url(../fonts/mh.svg);
+}
+.flag-icon-MKD {
+  background-image: url(../fonts/mk.svg);
+}
+.flag-icon-mk.flag-icon-squared {
+  background-image: url(../fonts/mk.svg);
+}
+.flag-icon-ml {
+  background-image: url(../fonts/ml.svg);
+}
+.flag-icon-ml.flag-icon-squared {
+  background-image: url(../fonts/ml.svg);
+}
+.flag-icon-mm {
+  background-image: url(../fonts/mm.svg);
+}
+.flag-icon-mm.flag-icon-squared {
+  background-image: url(../fonts/mm.svg);
+}
+.flag-icon-mn {
+  background-image: url(../fonts/mn.svg);
+}
+.flag-icon-mn.flag-icon-squared {
+  background-image: url(../fonts/mn.svg);
+}
+.flag-icon-mo {
+  background-image: url(../fonts/mo.svg);
+}
+.flag-icon-mo.flag-icon-squared {
+  background-image: url(../fonts/mo.svg);
+}
+.flag-icon-mp {
+  background-image: url(../fonts/mp.svg);
+}
+.flag-icon-mp.flag-icon-squared {
+  background-image: url(../fonts/mp.svg);
+}
+.flag-icon-mq {
+  background-image: url(../fonts/mq.svg);
+}
+.flag-icon-mq.flag-icon-squared {
+  background-image: url(../fonts/mq.svg);
+}
+.flag-icon-mr {
+  background-image: url(../fonts/mr.svg);
+}
+.flag-icon-mr.flag-icon-squared {
+  background-image: url(../fonts/mr.svg);
+}
+.flag-icon-ms {
+  background-image: url(../fonts/ms.svg);
+}
+.flag-icon-ms.flag-icon-squared {
+  background-image: url(../fonts/ms.svg);
+}
+.flag-icon-mt {
+  background-image: url(../fonts/mt.svg);
+}
+.flag-icon-mt.flag-icon-squared {
+  background-image: url(../fonts/mt.svg);
+}
+.flag-icon-MUR {
+  background-image: url(../fonts/mu.svg);
+}
+.flag-icon-mu.flag-icon-squared {
+  background-image: url(../fonts/mu.svg);
+}
+.flag-icon-mv {
+  background-image: url(../fonts/mv.svg);
+}
+.flag-icon-mv.flag-icon-squared {
+  background-image: url(../fonts/mv.svg);
+}
+.flag-icon-mw {
+  background-image: url(../fonts/mw.svg);
+}
+.flag-icon-mw.flag-icon-squared {
+  background-image: url(../fonts/mw.svg);
+}
+.flag-icon-MXN {
+  background-image: url(../fonts/mx.svg);
+}
+.flag-icon-mx.flag-icon-squared {
+  background-image: url(../fonts/mx.svg);
+}
+.flag-icon-MYR {
+  background-image: url(../fonts/my.svg);
+}
+.flag-icon-my.flag-icon-squared {
+  background-image: url(../fonts/my.svg);
+}
+.flag-icon-mz {
+  background-image: url(../fonts/mz.svg);
+}
+.flag-icon-mz.flag-icon-squared {
+  background-image: url(../fonts/mz.svg);
+}
+.flag-icon-na {
+  background-image: url(../fonts/na.svg);
+}
+.flag-icon-na.flag-icon-squared {
+  background-image: url(../fonts/na.svg);
+}
+.flag-icon-nc {
+  background-image: url(../fonts/nc.svg);
+}
+.flag-icon-nc.flag-icon-squared {
+  background-image: url(../fonts/nc.svg);
+}
+.flag-icon-ne {
+  background-image: url(../fonts/ne.svg);
+}
+.flag-icon-ne.flag-icon-squared {
+  background-image: url(../fonts/ne.svg);
+}
+.flag-icon-nf {
+  background-image: url(../fonts/nf.svg);
+}
+.flag-icon-nf.flag-icon-squared {
+  background-image: url(../fonts/nf.svg);
+}
+.flag-icon-ng {
+  background-image: url(../fonts/ng.svg);
+}
+.flag-icon-ng.flag-icon-squared {
+  background-image: url(../fonts/ng.svg);
+}
+.flag-icon-ni {
+  background-image: url(../fonts/ni.svg);
+}
+.flag-icon-ni.flag-icon-squared {
+  background-image: url(../fonts/ni.svg);
+}
+.flag-icon-NLG {
+  background-image: url(../fonts/nl.svg);
+}
+.flag-icon-nl.flag-icon-squared {
+  background-image: url(../fonts/nl.svg);
+}
+.flag-icon-NOK {
+  background-image: url(../fonts/no.svg);
+}
+.flag-icon-no.flag-icon-squared {
+  background-image: url(../fonts/no.svg);
+}
+.flag-icon-np {
+  background-image: url(../fonts/np.svg);
+}
+.flag-icon-np.flag-icon-squared {
+  background-image: url(../fonts/np.svg);
+}
+.flag-icon-nr {
+  background-image: url(../fonts/nr.svg);
+}
+.flag-icon-nr.flag-icon-squared {
+  background-image: url(../fonts/nr.svg);
+}
+.flag-icon-nu {
+  background-image: url(../fonts/nu.svg);
+}
+.flag-icon-nu.flag-icon-squared {
+  background-image: url(../fonts/nu.svg);
+}
+.flag-icon-NZD {
+  background-image: url(../fonts/nz.svg);
+}
+.flag-icon-nz.flag-icon-squared {
+  background-image: url(../fonts/nz.svg);
+}
+.flag-icon-OMR {
+  background-image: url(../fonts/om.svg);
+}
+.flag-icon-om.flag-icon-squared {
+  background-image: url(../fonts/om.svg);
+}
+.flag-icon-pa {
+  background-image: url(../fonts/pa.svg);
+}
+.flag-icon-pa.flag-icon-squared {
+  background-image: url(../fonts/pa.svg);
+}
+.flag-icon-PEN {
+  background-image: url(../fonts/pe.svg);
+}
+.flag-icon-pe.flag-icon-squared {
+  background-image: url(../fonts/pe.svg);
+}
+.flag-icon-pf {
+  background-image: url(../fonts/pf.svg);
+}
+.flag-icon-pf.flag-icon-squared {
+  background-image: url(../fonts/pf.svg);
+}
+.flag-icon-PGK {
+  background-image: url(../fonts/pg.svg);
+}
+.flag-icon-pg.flag-icon-squared {
+  background-image: url(../fonts/pg.svg);
+}
+.flag-icon-PHP {
+  background-image: url(../fonts/ph.svg);
+}
+.flag-icon-ph.flag-icon-squared {
+  background-image: url(../fonts/ph.svg);
+}
+.flag-icon-PKR {
+  background-image: url(../fonts/pk.svg);
+}
+.flag-icon-pk.flag-icon-squared {
+  background-image: url(../fonts/pk.svg);
+}
+.flag-icon-PLN {
+  background-image: url(../fonts/pl.svg);
+}
+.flag-icon-pl.flag-icon-squared {
+  background-image: url(../fonts/pl.svg);
+}
+.flag-icon-pm {
+  background-image: url(../fonts/pm.svg);
+}
+.flag-icon-pm.flag-icon-squared {
+  background-image: url(../fonts/pm.svg);
+}
+.flag-icon-pn {
+  background-image: url(../fonts/pn.svg);
+}
+.flag-icon-pn.flag-icon-squared {
+  background-image: url(../fonts/pn.svg);
+}
+.flag-icon-pr {
+  background-image: url(../fonts/pr.svg);
+}
+.flag-icon-pr.flag-icon-squared {
+  background-image: url(../fonts/pr.svg);
+}
+.flag-icon-ps {
+  background-image: url(../fonts/ps.svg);
+}
+.flag-icon-ps.flag-icon-squared {
+  background-image: url(../fonts/ps.svg);
+}
+.flag-icon-pt {
+  background-image: url(../fonts/pt.svg);
+}
+.flag-icon-pt.flag-icon-squared {
+  background-image: url(../fonts/pt.svg);
+}
+.flag-icon-pw {
+  background-image: url(../fonts/pw.svg);
+}
+.flag-icon-pw.flag-icon-squared {
+  background-image: url(../fonts/pw.svg);
+}
+.flag-icon-py {
+  background-image: url(../fonts/py.svg);
+}
+.flag-icon-py.flag-icon-squared {
+  background-image: url(../fonts/py.svg);
+}
+.flag-icon-QAR {
+  background-image: url(../fonts/qa.svg);
+}
+.flag-icon-qa.flag-icon-squared {
+  background-image: url(../fonts/qa.svg);
+}
+
+.flag-icon-RON {
+  background-image: url(../fonts/ro.svg);
+}
+.flag-icon-ro.flag-icon-squared {
+  background-image: url(../fonts/ro.svg);
+}
+.flag-icon-rs {
+  background-image: url(../fonts/rs.svg);
+}
+.flag-icon-rs.flag-icon-squared {
+  background-image: url(../fonts/rs.svg);
+}
+.flag-icon-RUB {
+  background-image: url(../fonts/ru.svg);
+}
+.flag-icon-ru.flag-icon-squared {
+  background-image: url(../fonts/ru.svg);
+}
+.flag-icon-rw {
+  background-image: url(../fonts/rw.svg);
+}
+.flag-icon-rw.flag-icon-squared {
+  background-image: url(../fonts/rw.svg);
+}
+.flag-icon-SAR {
+  background-image: url(../fonts/sa.svg);
+}
+.flag-icon-sa.flag-icon-squared {
+  background-image: url(../fonts/sa.svg);
+}
+.flag-icon-sb {
+  background-image: url(../fonts/sb.svg);
+}
+.flag-icon-sb.flag-icon-squared {
+  background-image: url(../fonts/sb.svg);
+}
+.flag-icon-sc {
+  background-image: url(../fonts/sc.svg);
+}
+.flag-icon-sc.flag-icon-squared {
+  background-image: url(../fonts/sc.svg);
+}
+.flag-icon-sd {
+  background-image: url(../fonts/sd.svg);
+}
+.flag-icon-sd.flag-icon-squared {
+  background-image: url(../fonts/sd.svg);
+}
+.flag-icon-SEK  {
+  background-image: url(../fonts/se.svg);
+}
+.flag-icon-se.flag-icon-squared {
+  background-image: url(../fonts/se.svg);
+}
+.flag-icon-SGD {
+  background-image: url(../fonts/sg.svg);
+}
+.flag-icon-sg.flag-icon-squared {
+  background-image: url(../fonts/sg.svg);
+}
+.flag-icon-sh {
+  background-image: url(../fonts/sh.svg);
+}
+.flag-icon-sh.flag-icon-squared {
+  background-image: url(../fonts/sh.svg);
+}
+.flag-icon-si {
+  background-image: url(../fonts/si.svg);
+}
+.flag-icon-si.flag-icon-squared {
+  background-image: url(../fonts/si.svg);
+}
+.flag-icon-sj {
+  background-image: url(../fonts/sj.svg);
+}
+.flag-icon-sj.flag-icon-squared {
+  background-image: url(../fonts/sj.svg);
+}
+.flag-icon-sk {
+  background-image: url(../fonts/sk.svg);
+}
+.flag-icon-sk.flag-icon-squared {
+  background-image: url(../fonts/sk.svg);
+}
+.flag-icon-sl {
+  background-image: url(../fonts/sl.svg);
+}
+.flag-icon-sl.flag-icon-squared {
+  background-image: url(../fonts/sl.svg);
+}
+.flag-icon-sm {
+  background-image: url(../fonts/sm.svg);
+}
+.flag-icon-sm.flag-icon-squared {
+  background-image: url(../fonts/sm.svg);
+}
+.flag-icon-sn {
+  background-image: url(../fonts/sn.svg);
+}
+.flag-icon-sn.flag-icon-squared {
+  background-image: url(../fonts/sn.svg);
+}
+.flag-icon-so {
+  background-image: url(../fonts/so.svg);
+}
+.flag-icon-so.flag-icon-squared {
+  background-image: url(../fonts/so.svg);
+}
+.flag-icon-sr {
+  background-image: url(../fonts/sr.svg);
+}
+.flag-icon-sr.flag-icon-squared {
+  background-image: url(../fonts/sr.svg);
+}
+.flag-icon-ss {
+  background-image: url(../fonts/ss.svg);
+}
+.flag-icon-ss.flag-icon-squared {
+  background-image: url(../fonts/ss.svg);
+}
+.flag-icon-st {
+  background-image: url(../fonts/st.svg);
+}
+.flag-icon-st.flag-icon-squared {
+  background-image: url(../fonts/st.svg);
+}
+.flag-icon-sv {
+  background-image: url(../fonts/sv.svg);
+}
+.flag-icon-sv.flag-icon-squared {
+  background-image: url(../fonts/sv.svg);
+}
+.flag-icon-sx {
+  background-image: url(../fonts/sx.svg);
+}
+.flag-icon-sx.flag-icon-squared {
+  background-image: url(../fonts/sx.svg);
+}
+.flag-icon-SYP {
+  background-image: url(../fonts/sy.svg);
+}
+.flag-icon-sy.flag-icon-squared {
+  background-image: url(../fonts/sy.svg);
+}
+.flag-icon-sz {
+  background-image: url(../fonts/sz.svg);
+}
+.flag-icon-sz.flag-icon-squared {
+  background-image: url(../fonts/sz.svg);
+}
+.flag-icon-tc {
+  background-image: url(../fonts/tc.svg);
+}
+.flag-icon-tc.flag-icon-squared {
+  background-image: url(../fonts/tc.svg);
+}
+.flag-icon-td {
+  background-image: url(../fonts/td.svg);
+}
+.flag-icon-td.flag-icon-squared {
+  background-image: url(../fonts/td.svg);
+}
+.flag-icon-tf {
+  background-image: url(../fonts/tf.svg);
+}
+.flag-icon-tf.flag-icon-squared {
+  background-image: url(../fonts/tf.svg);
+}
+.flag-icon-tg {
+  background-image: url(../fonts/tg.svg);
+}
+.flag-icon-tg.flag-icon-squared {
+  background-image: url(../fonts/tg.svg);
+}
+.flag-icon-THB {
+  background-image: url(../fonts/th.svg);
+}
+.flag-icon-th.flag-icon-squared {
+  background-image: url(../fonts/th.svg);
+}
+.flag-icon-tj {
+  background-image: url(../fonts/tj.svg);
+}
+.flag-icon-tj.flag-icon-squared {
+  background-image: url(../fonts/tj.svg);
+}
+.flag-icon-tk {
+  background-image: url(../fonts/tk.svg);
+}
+.flag-icon-tk.flag-icon-squared {
+  background-image: url(../fonts/tk.svg);
+}
+.flag-icon-tl {
+  background-image: url(../fonts/tl.svg);
+}
+.flag-icon-tl.flag-icon-squared {
+  background-image: url(../fonts/tl.svg);
+}
+.flag-icon-tm {
+  background-image: url(../fonts/tm.svg);
+}
+.flag-icon-tm.flag-icon-squared {
+  background-image: url(../fonts/tm.svg);
+}
+.flag-icon-flag-icon-tn {
+  background-image: url(../fonts/tn.svg);
+}
+.flag-icon-tn.flag-icon-squared {
+  background-image: url(../fonts/tn.svg);
+}
+.flag-icon-to {
+  background-image: url(../fonts/to.svg);
+}
+.flag-icon-to.flag-icon-squared {
+  background-image: url(../fonts/to.svg);
+}
+.flag-icon-TRY {
+  background-image: url(../fonts/tr.svg);
+}
+.flag-icon-tr.flag-icon-squared {
+  background-image: url(../fonts/tr.svg);
+}
+.flag-icon-TTD {
+  background-image: url(../fonts/tt.svg);
+}
+.flag-icon-tt.flag-icon-squared {
+  background-image: url(../fonts/tt.svg);
+}
+.flag-icon-tv {
+  background-image: url(../fonts/tv.svg);
+}
+.flag-icon-tv.flag-icon-squared {
+  background-image: url(../fonts/tv.svg);
+}
+.flag-icon-TWD {
+  background-image: url(../fonts/tw.svg);
+}
+.flag-icon-tw.flag-icon-squared {
+  background-image: url(../fonts/tw.svg);
+}
+.flag-icon-tz {
+  background-image: url(../fonts/tz.svg);
+}
+.flag-icon-tz.flag-icon-squared {
+  background-image: url(../fonts/tz.svg);
+}
+.flag-icon-ua {
+  background-image: url(../fonts/ua.svg);
+}
+.flag-icon-ua.flag-icon-squared {
+  background-image: url(../fonts/ua.svg);
+}
+.flag-icon-ug {
+  background-image: url(../fonts/ug.svg);
+}
+.flag-icon-ug.flag-icon-squared {
+  background-image: url(../fonts/ug.svg);
+}
+.flag-icon-um {
+  background-image: url(../fonts/um.svg);
+}
+.flag-icon-um.flag-icon-squared {
+  background-image: url(../fonts/um.svg);
+}
+.flag-icon-USD {
+  background-image: url(../fonts/us.svg);
+}
+.flag-icon-us.flag-icon-squared {
+  background-image: url(../fonts/us.svg);
+}
+.flag-icon-UYU {
+  background-image: url(../fonts/uy.svg);
+}
+.flag-icon-uy.flag-icon-squared {
+  background-image: url(../fonts/uy.svg);
+}
+.flag-icon-uz {
+  background-image: url(../fonts/uz.svg);
+}
+.flag-icon-uz.flag-icon-squared {
+  background-image: url(../fonts/uz.svg);
+}
+.flag-icon-va {
+  background-image: url(../fonts/va.svg);
+}
+.flag-icon-va.flag-icon-squared {
+  background-image: url(../fonts/va.svg);
+}
+.flag-icon-vc {
+  background-image: url(../fonts/vc.svg);
+}
+.flag-icon-vc.flag-icon-squared {
+  background-image: url(../fonts/vc.svg);
+}
+.flag-icon-ve {
+  background-image: url(../fonts/ve.svg);
+}
+.flag-icon-ve.flag-icon-squared {
+  background-image: url(../fonts/ve.svg);
+}
+.flag-icon-vg {
+  background-image: url(../fonts/vg.svg);
+}
+.flag-icon-vg.flag-icon-squared {
+  background-image: url(../fonts/vg.svg);
+}
+.flag-icon-vi {
+  background-image: url(../fonts/vi.svg);
+}
+.flag-icon-vi.flag-icon-squared {
+  background-image: url(../fonts/vi.svg);
+}
+.flag-icon-VND {
+  background-image: url(../fonts/vn.svg);
+}
+.flag-icon-vn.flag-icon-squared {
+  background-image: url(../fonts/vn.svg);
+}
+.flag-icon-vu {
+  background-image: url(../fonts/vu.svg);
+}
+.flag-icon-vu.flag-icon-squared {
+  background-image: url(../fonts/vu.svg);
+}
+.flag-icon-wf {
+  background-image: url(../fonts/wf.svg);
+}
+.flag-icon-wf.flag-icon-squared {
+  background-image: url(../fonts/wf.svg);
+}
+.flag-icon-ws {
+  background-image: url(../fonts/ws.svg);
+}
+.flag-icon-ws.flag-icon-squared {
+  background-image: url(../fonts/ws.svg);
+}
+.flag-icon-ye {
+  background-image: url(../fonts/ye.svg);
+}
+.flag-icon-ye.flag-icon-squared {
+  background-image: url(../fonts/ye.svg);
+}
+.flag-icon-yt {
+  background-image: url(../fonts/yt.svg);
+}
+.flag-icon-yt.flag-icon-squared {
+  background-image: url(../fonts/yt.svg);
+}
+.flag-icon-ZAR {
+  background-image: url(../fonts/za.svg);
+}
+.flag-icon-za.flag-icon-squared {
+  background-image: url(../fonts/za.svg);
+}
+.flag-icon-zm {
+  background-image: url(../fonts/zm.svg);
+}
+.flag-icon-zm.flag-icon-squared {
+  background-image: url(../fonts/zm.svg);
+}
+.flag-icon-zw {
+  background-image: url(../fonts/zw.svg);
+}
+.flag-icon-zw.flag-icon-squared {
+  background-image: url(../fonts/zw.svg);
+}
+.flag-icon-EUR {
+  background-image: url(../fonts/eu.svg);
+}
+.flag-icon-eu.flag-icon-squared {
+  background-image: url(../fonts/eu.svg);
+}
+.flag-icon-un {
+  background-image: url(../fonts/un.svg);
+}
+.flag-icon-un.flag-icon-squared {
+  background-image: url(../fonts/un.svg);
+}
+
+
+.icon-list-demo .flag-icon-background{
+  /* margin-right: 8px; */
+  font-size: 12px;
+  text-transform: capitalize;
+}

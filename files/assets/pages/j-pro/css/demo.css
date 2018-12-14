@@ -1,0 +1,9 @@
+html,
+body {
+	background-attachment:fixed;
+	background-position:50% 50%;
+	background-size:cover;
+	margin:0;
+	padding:0;
+}
+.bg-pic { background-image:url("../img/bg.jpg"); }

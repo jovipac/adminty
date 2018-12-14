@@ -1,0 +1,141 @@
+/**  =====================
+      Message css start
+==========================  **/
+.message .card{
+    border-top:none;
+}
+
+.message-label{
+    float: right;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    margin-top: -5px;
+    line-height: 22px;
+    border-radius: 100%;
+    margin-bottom: 0;
+}
+.unread-msg{
+    background: #fcffe8;
+}
+.unread-msg i,.unread-msg h6,.unread-msg span,.unread-msg p{
+    color: #000 !important;
+    font-weight: 600;
+}
+.messages .media .media-body{
+    padding-top: 6px;
+}
+.messages-content {
+    padding: 25px;
+    border-right: 1px solid #ccc;
+    padding-bottom:0;
+}
+.messages-content .media{
+    margin-bottom: 40px;
+}
+.messages-content .media .msg-send,.messages-content .media .msg-reply{
+    padding: 15px;
+    font-size: 12px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.messages-send .form-control{
+    border-radius:0;
+}
+.messages-send span{
+    border-radius:0;
+}
+.msg-img-h{
+    width: 50px;
+}
+
+
+.user-box .media-object, .friend-box .media-object {
+    height: 45px;
+    width: 45px;
+    display: inline-block;
+}
+.media-right {
+    padding-left: 10px;
+}
+.friend-box img {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.message-left{
+    width: 300px;
+    float: right;
+}
+.msg-box{
+    margin: -30px -15px;
+}
+.msg-send{
+    background-color: #f3f3f3;
+}
+.new-msg{
+    border-right: 0;
+}
+.msg-ellipsis{
+    right: 10px;
+    top: 0;
+    position: absolute;
+    span{
+        margin-top: 10px;
+        margin-right: 14px;
+        float: right;
+        font-size: 26px;
+    }
+}
+
+.msg-nav{
+    top: 18px;
+    right: 40px;
+    position: absolute;
+    font-size: 24px;
+}
+.new-msg:focus ~ .input-group-addon {
+    background-color: #fff;
+    border-color: #66afe9;
+}
+
+.msg-ellipsis.c-pointer .ellipsis {
+    position: absolute;
+    right: -13px;
+    font-size: 26px;
+    color: transparent;
+    cursor: pointer;
+    top: -16px;
+    padding: 0px 0;
+    z-index: 99;
+    height: 40px;
+}
+.elipsis-box.msg-elipsis-box {
+    position: absolute;
+    top:30px;
+    box-shadow:0 0 5px 1px rgba(0, 0, 0, 0.11);
+    right: -10px;
+}
+.msg-ellipsis {
+    right: 15px;
+    top: 20px;
+    position: absolute;
+    a{
+        font-size: 15px;
+    }
+}
+.elipsis-box:after {
+    content: '';
+    height: 13px;
+    width: 13px;
+    background: #fff;
+    position: absolute;
+    top: -5px;
+    right: 10px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
+    box-shadow: -3px -3px 11px 1px rgba(170, 170, 170, 0.22);
+}
+
+/*====== Message css End ======*/

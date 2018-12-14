@@ -1,0 +1,248 @@
+.card-list-img {
+    height: 75px;
+    width: 75px;
+    border-radius: 5px
+}
+
+.basic-list, .list-view-media {
+    margin-bottom: 30px
+}
+
+.basic-list li {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc
+}
+
+.basic-list li:last-child {
+    border: 0;
+    padding-bottom: 0
+}
+
+.basic-list.list-icons li, .basic-list.list-icons-img li {
+    margin-left: 50px;
+    position: relative
+}
+
+.list-icons i {
+    left: -64px;
+    top: 0;
+    bottom: -1px;
+    width: 64px;
+    padding: 8px 0;
+    float: left;
+    position: absolute
+}
+
+.basic-list p {
+    margin: 0
+}
+
+.list-icons-img img {
+    left: -60px;
+    top: 0;
+    bottom: -1px;
+    width: 40px;
+    position: absolute;
+    border-radius: 5px
+}
+
+.list-view li button {
+    margin-right: 10px;
+    margin-bottom: 10px
+}
+
+.list-view li .user-card {
+    margin-bottom: 20px
+}
+
+.list-view li:last-child .user-card {
+    margin-bottom: 0
+}
+
+.dynamic-row {
+    margin-bottom: 30px
+}
+
+.remove-item {
+    display: none
+}
+
+.scroll-list {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    -webkit-perspective: 400px;
+    -moz-perspective: 400px;
+    -ms-perspective: 400px;
+    -o-perspective: 400px;
+    perspective: 400px
+}
+
+.scroll-list li {
+    position: relative;
+    padding: 15px;
+    background: #eee;
+    color: #252525;
+    font-size: 18px;
+    z-inddynamic-list: 2;
+    -webkit-transform: translateZ(0px);
+    -moz-transform: translateZ(0px);
+    -ms-transform: translateZ(0px);
+    -o-transform: translateZ(0px);
+    transform: translateZ(0px)
+}
+
+.scroll-list h6 {
+    margin: 0
+}
+
+.scroll-list li:nth-child(even) {
+    background: #fff
+}
+
+.dynamic-row {
+    overflow: hidden
+}
+
+.dynamic-row li {
+    padding: 15px
+}
+
+.dynamic-list-one .new-item {
+    background: #0956ff;
+    color: #fff
+}
+
+.dynamic-list-two .new-item {
+    background: #0956ff;
+    color: #fff;
+    max-height: 0;
+    opacity: 0;
+    transform: scale(0);
+    animation: growHeight .2s ease forwards
+}
+
+@keyframes growHeight {
+    to {
+        max-height: 50px;
+        opacity: 1;
+        transform: scale(1)
+    }
+}
+
+.dynamic-list-three ul {
+    overflow: hidden
+}
+
+.dynamic-list-three .new-item {
+    background: #1abc9c;
+    color: #fff;
+    max-height: 0;
+    opacity: 0;
+    transform: translatdynamic-list(-300px);
+    animation: openSpace .2s ease forwards, moveIn .3s .2s ease forwards
+}
+
+@keyframes openSpace {
+    to {
+        max-height: 50px
+    }
+}
+
+@keyframes moveIn {
+    to {
+        opacity: 1;
+        transform: translatdynamic-list(0)
+    }
+}
+
+.hider {
+    overflow: hidden
+}
+
+.slider-wrap {
+    width: 200%;
+    position: relative;
+    transition: transform .5s linear
+}
+
+.slider-wrap.open {
+    transform: translatdynamic-list(-50.1%)
+}
+
+.dynamic-list-five .details {
+    display: none;
+    line-height: 1.4;
+    padding-bottom: 10px
+}
+
+#dynamic-list-five-button {
+    transition: background .2s ease
+}
+
+#dynamic-list-five-button.open {
+    background: #1abc9c;
+    color: #fff
+}
+
+#dynamic-list-five-button.open .title {
+    font-weight: bold
+}
+
+.dynamic-list-six .details {
+    display: none;
+    line-height: 1.4;
+    padding-bottom: 10px
+}
+
+#dynamic-list-six-button {
+    position: relative;
+    transition: transform .2s ease
+}
+
+#dynamic-list-five-button.open h6, #dynamic-list-six-button.open h6 {
+    color: #fff
+}
+
+#dynamic-list-six-button.open {
+    background: #1abc9c;
+    color: #fff;
+    padding: 50px;
+    transform: translateY(-60px) scale(2.8)
+}
+
+#dynamic-list-six-list {
+    transition: transform .2s ease
+}
+
+#dynamic-list-six-list.open {
+    transform: translateY(-40px) scale(0.4)
+}
+
+#dynamic-list-six-list.open .title {
+    font-weight: bold;
+    font-size: 120%
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 25px;
+    line-height: 1;
+    display: none
+}
+
+#dynamic-list-six-button.open .close-button {
+    display: block
+}
+
+.details p {
+    color: #fff
+}

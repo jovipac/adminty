@@ -1,0 +1,95 @@
+
+/*Dotted Line theme*/
+.dotted-line-theme{
+  min-height: 49px;
+}
+.dotted-line-theme .just_edit, .dotted-line-theme .just_edit input, .dotted-line-theme .just_edit textarea, .dotted-line-theme .ibtn_container, .dotted-line-theme .no_edit, .dotted-line-theme .no_edit .i_text, .dotted-line-theme .i_edit{
+  font-size: 11px;
+  line-height: 22px;
+  color: #777;
+}
+.dotted-line-theme .no_edit{
+  padding: 5px 2px;
+  border-bottom: 1px dotted #3c948b 
+}
+.dotted-line-theme .just_edit{
+  padding: 7px 2px;
+}
+.dotted-line-theme .no_edit:hover{
+  background: #fff;
+  border-bottom: 1px solid #3c948b
+}
+.dotted-line-theme .i_edit{
+ display: none;
+}
+.dotted-line-theme .no_edit:hover .i_edit{
+  background: rgba(60, 148, 139,0.9);
+  color: #fff
+}
+.dotted-line-theme .just_edit input, .dotted-line-theme .just_edit textarea{
+  background: #fff;
+  position: relative;
+  vertical-align: top;
+ /*  border: 1px solid rgba(153, 153, 153, 0.60); */
+  display: -moz-inline-stack;
+  display: inline-block;
+  color: #777;
+  outline: 0;
+  font-size: 12px;
+  line-height: 27px;
+  width: 100%;
+ /*  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px; */
+  outline: 0;
+  font-weight: 400;
+  padding: 5px 8px;
+}
+
+.dotted-line-theme .just_edit input[type="checkbox"],.dotted-line-theme .just_edit input[type="radio"]{
+  width: auto;
+  height: auto;
+}
+.dotted-line-theme .no_edit .i_edit:hover{
+  text-decoration: none;
+}
+.dotted-line-theme input:focus{
+  outline: #3c948b
+}
+.dotted-line-theme .ibtn_container{
+  padding-left: 0;
+  margin-top: 2px;
+}
+.dotted-line-theme .i_ok, .dotted-line-theme .i_cancel{
+  font-weight: normal;
+    font-size: 12px;
+  line-height: 25px;
+  width: 25px;
+  height: 25px;
+  border-radius: 25px;
+  padding-left: 2px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+}
+.dotted-line-theme .i_ok{
+  color: #fff;
+  background: rgba(92, 184, 92,0.7);
+}
+.dotted-line-theme .i_cancel{
+  margin-right: 0;
+  color: #fff;
+  background: rgba(217, 83, 79,0.7);
+}
+.dotted-line-theme .i_ok:hover{
+  color: #fff;
+  background: rgba(92, 184, 92,0.9);
+  text-decoration: none;
+}
+.dotted-line-theme .i_cancel:hover{
+  color: #fff;
+  background: rgba(217, 83, 79,0.9);
+  text-decoration: none;
+}

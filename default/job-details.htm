@@ -1,0 +1,2444 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Adminty - Premium Admin Template by Colorlib</title>
+    <!-- HTML5 Shim and Respond.js IE10 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 10]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+      <!-- Meta -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="description" content="#">
+      <meta name="keywords" content="Admin , Responsive, Landing, Bootstrap, App, Template, Mobile, iOS, Android, apple, creative app">
+      <meta name="author" content="#">
+      <!-- Favicon icon -->
+      <link rel="icon" href="..\files\assets\images\favicon.ico" type="image/x-icon">
+      <!-- Google font-->
+      <link href="https://fonts.googleapis.com/css?family=Mada:300,400,500,600,700" rel="stylesheet">
+      <!-- Required Fremwork -->
+      <link rel="stylesheet" type="text/css" href="..\files\bower_components\bootstrap\css\bootstrap.min.css">
+      <!-- themify-icons line icon -->
+      <link rel="stylesheet" type="text/css" href="..\files\assets\icon\themify-icons\themify-icons.css">
+      <!-- ico font -->
+      <link rel="stylesheet" type="text/css" href="..\files\assets\icon\icofont\css\icofont.css">
+      <!-- feather Awesome -->
+      <link rel="stylesheet" type="text/css" href="..\files\assets\icon\feather\css\feather.css">
+      <!-- Select 2 css -->
+      <link rel="stylesheet" href="..\files\bower_components\select2\css\select2.min.css">
+      <!-- Style.css -->
+      <link rel="stylesheet" type="text/css" href="..\files\assets\css\style.css">
+      <!--color css-->
+
+      <link rel="stylesheet" type="text/css" href="..\files\assets\css\linearicons.css">
+      <link rel="stylesheet" type="text/css" href="..\files\assets\css\jquery.mCustomScrollbar.css">
+  </head>
+
+  <body>
+  <!-- Pre-loader start -->
+  <div class="theme-loader">
+      <div class="ball-scale">
+          <div class='contain'>
+              <div class="ring">
+                  <div class="frame"></div>
+              </div>
+              <div class="ring">
+                  <div class="frame"></div>
+              </div>
+              <div class="ring">
+                  <div class="frame"></div>
+              </div>
+              <div class="ring">
+                  <div class="frame"></div>
+              </div>
+              <div class="ring">
+                  <div class="frame"></div>
+              </div>
+              <div class="ring">
+                  <div class="frame"></div>
+              </div>
+              <div class="ring">
+                  <div class="frame"></div>
+              </div>
+              <div class="ring">
+                  <div class="frame"></div>
+              </div>
+              <div class="ring">
+                  <div class="frame"></div>
+              </div>
+              <div class="ring">
+                  <div class="frame"></div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Pre-loader end -->
+  <div id="pcoded" class="pcoded">
+      <div class="pcoded-overlay-box"></div>
+      <div class="pcoded-container navbar-wrapper">
+
+          <nav class="navbar header-navbar pcoded-header">
+              <div class="navbar-wrapper">
+
+                  <div class="navbar-logo">
+                      <a class="mobile-menu" id="mobile-collapse" href="#!">
+                          <i class="feather icon-menu"></i>
+                      </a>
+                      <a href="index-1.htm">
+                          <img class="img-fluid" src="..\files\assets\images\logo.png" alt="Theme-Logo">
+                      </a>
+                      <a class="mobile-options">
+                          <i class="feather icon-more-horizontal"></i>
+                      </a>
+                  </div>
+
+                  <div class="navbar-container container-fluid">
+                      <ul class="nav-left">
+                          <li class="header-search">
+                              <div class="main-search morphsearch-search">
+                                  <div class="input-group">
+                                      <span class="input-group-addon search-close"><i class="feather icon-x"></i></span>
+                                      <input type="text" class="form-control">
+                                      <span class="input-group-addon search-btn"><i class="feather icon-search"></i></span>
+                                  </div>
+                              </div>
+                          </li>
+                          <li>
+                              <a href="#!" onclick="javascript:toggleFullScreen()">
+                                  <i class="feather icon-maximize full-screen"></i>
+                              </a>
+                          </li>
+                      </ul>
+                      <ul class="nav-right">
+                          <li class="header-notification">
+                              <div class="dropdown-primary dropdown">
+                                  <div class="dropdown-toggle" data-toggle="dropdown">
+                                      <i class="feather icon-bell"></i>
+                                      <span class="badge bg-c-pink">5</span>
+                                  </div>
+                                  <ul class="show-notification notification-view dropdown-menu" data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
+                                      <li>
+                                          <h6>Notifications</h6>
+                                          <label class="label label-danger">New</label>
+                                      </li>
+                                      <li>
+                                          <div class="media">
+                                              <img class="d-flex align-self-center img-radius" src="..\files\assets\images\avatar-4.jpg" alt="Generic placeholder image">
+                                              <div class="media-body">
+                                                  <h5 class="notification-user">John Doe</h5>
+                                                  <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
+                                                  <span class="notification-time">30 minutes ago</span>
+                                              </div>
+                                          </div>
+                                      </li>
+                                      <li>
+                                          <div class="media">
+                                              <img class="d-flex align-self-center img-radius" src="..\files\assets\images\avatar-3.jpg" alt="Generic placeholder image">
+                                              <div class="media-body">
+                                                  <h5 class="notification-user">Joseph William</h5>
+                                                  <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
+                                                  <span class="notification-time">30 minutes ago</span>
+                                              </div>
+                                          </div>
+                                      </li>
+                                      <li>
+                                          <div class="media">
+                                              <img class="d-flex align-self-center img-radius" src="..\files\assets\images\avatar-4.jpg" alt="Generic placeholder image">
+                                              <div class="media-body">
+                                                  <h5 class="notification-user">Sara Soudein</h5>
+                                                  <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
+                                                  <span class="notification-time">30 minutes ago</span>
+                                              </div>
+                                          </div>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </li>
+                          <li class="header-notification">
+                              <div class="dropdown-primary dropdown">
+                                  <div class="displayChatbox dropdown-toggle" data-toggle="dropdown">
+                                      <i class="feather icon-message-square"></i>
+                                      <span class="badge bg-c-green">3</span>
+                                  </div>
+                              </div>
+                          </li>
+                          <li class="user-profile header-notification">
+                              <div class="dropdown-primary dropdown">
+                                  <div class="dropdown-toggle" data-toggle="dropdown">
+                                      <img src="..\files\assets\images\avatar-4.jpg" class="img-radius" alt="User-Profile-Image">
+                                      <span>John Doe</span>
+                                      <i class="feather icon-chevron-down"></i>
+                                  </div>
+                                  <ul class="show-notification profile-notification dropdown-menu" data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
+                                      <li>
+                                          <a href="#!">
+                                              <i class="feather icon-settings"></i> Settings
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="user-profile.htm">
+                                              <i class="feather icon-user"></i> Profile
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="email-inbox.htm">
+                                              <i class="feather icon-mail"></i> My Messages
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="auth-lock-screen.htm">
+                                              <i class="feather icon-lock"></i> Lock Screen
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="auth-normal-sign-in.htm">
+                                              <i class="feather icon-log-out"></i> Logout
+                                          </a>
+                                      </li>
+                                  </ul>
+
+                              </div>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </nav>
+
+          <!-- Sidebar chat start -->
+          <div id="sidebar" class="users p-chat-user showChat">
+              <div class="had-container">
+                  <div class="card card_main p-fixed users-main">
+                      <div class="user-box">
+                          <div class="chat-inner-header">
+                              <div class="back_chatBox">
+                                  <div class="right-icon-control">
+                                      <input type="text" class="form-control  search-text" placeholder="Search Friend" id="search-friends">
+                                      <div class="form-icon">
+                                          <i class="icofont icofont-search"></i>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="main-friend-list">
+                              <div class="media userlist-box" data-id="1" data-status="online" data-username="Josephin Doe" data-toggle="tooltip" data-placement="left" title="Josephin Doe">
+                                  <a class="media-left" href="#!">
+                                      <img class="media-object img-radius img-radius" src="..\files\assets\images\avatar-3.jpg" alt="Generic placeholder image ">
+                                      <div class="live-status bg-success"></div>
+                                  </a>
+                                  <div class="media-body">
+                                      <div class="f-13 chat-header">Josephin Doe</div>
+                                  </div>
+                              </div>
+                              <div class="media userlist-box" data-id="2" data-status="online" data-username="Lary Doe" data-toggle="tooltip" data-placement="left" title="Lary Doe">
+                                  <a class="media-left" href="#!">
+                                      <img class="media-object img-radius" src="..\files\assets\images\avatar-2.jpg" alt="Generic placeholder image">
+                                      <div class="live-status bg-success"></div>
+                                  </a>
+                                  <div class="media-body">
+                                      <div class="f-13 chat-header">Lary Doe</div>
+                                  </div>
+                              </div>
+                              <div class="media userlist-box" data-id="3" data-status="online" data-username="Alice" data-toggle="tooltip" data-placement="left" title="Alice">
+                                  <a class="media-left" href="#!">
+                                      <img class="media-object img-radius" src="..\files\assets\images\avatar-4.jpg" alt="Generic placeholder image">
+                                      <div class="live-status bg-success"></div>
+                                  </a>
+                                  <div class="media-body">
+                                      <div class="f-13 chat-header">Alice</div>
+                                  </div>
+                              </div>
+                              <div class="media userlist-box" data-id="4" data-status="online" data-username="Alia" data-toggle="tooltip" data-placement="left" title="Alia">
+                                  <a class="media-left" href="#!">
+                                      <img class="media-object img-radius" src="..\files\assets\images\avatar-3.jpg" alt="Generic placeholder image">
+                                      <div class="live-status bg-success"></div>
+                                  </a>
+                                  <div class="media-body">
+                                      <div class="f-13 chat-header">Alia</div>
+                                  </div>
+                              </div>
+                              <div class="media userlist-box" data-id="5" data-status="online" data-username="Suzen" data-toggle="tooltip" data-placement="left" title="Suzen">
+                                  <a class="media-left" href="#!">
+                                      <img class="media-object img-radius" src="..\files\assets\images\avatar-2.jpg" alt="Generic placeholder image">
+                                      <div class="live-status bg-success"></div>
+                                  </a>
+                                  <div class="media-body">
+                                      <div class="f-13 chat-header">Suzen</div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- Sidebar inner chat start-->
+          <div class="showChat_inner">
+              <div class="media chat-inner-header">
+                  <a class="back_chatBox">
+                      <i class="feather icon-chevron-left"></i> Josephin Doe
+                  </a>
+              </div>
+              <div class="media chat-messages">
+                  <a class="media-left photo-table" href="#!">
+                      <img class="media-object img-radius img-radius m-t-5" src="..\files\assets\images\avatar-3.jpg" alt="Generic placeholder image">
+                  </a>
+                  <div class="media-body chat-menu-content">
+                      <div class="">
+                          <p class="chat-cont">I'm just looking around. Will you tell me something about yourself?</p>
+                          <p class="chat-time">8:20 a.m.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="media chat-messages">
+                  <div class="media-body chat-menu-reply">
+                      <div class="">
+                          <p class="chat-cont">I'm just looking around. Will you tell me something about yourself?</p>
+                          <p class="chat-time">8:20 a.m.</p>
+                      </div>
+                  </div>
+                  <div class="media-right photo-table">
+                      <a href="#!">
+                          <img class="media-object img-radius img-radius m-t-5" src="..\files\assets\images\avatar-4.jpg" alt="Generic placeholder image">
+                      </a>
+                  </div>
+              </div>
+              <div class="chat-reply-box p-b-20">
+                  <div class="right-icon-control">
+                      <input type="text" class="form-control search-text" placeholder="Share Your Thoughts">
+                      <div class="form-icon">
+                          <i class="feather icon-navigation"></i>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- Sidebar inner chat end-->
+          <div class="pcoded-main-container">
+              <div class="pcoded-wrapper">
+                  <nav class="pcoded-navbar">
+                      <div class="pcoded-inner-navbar main-menu">
+                          <div class="pcoded-navigatio-lavel">Navigation</div>
+                          <ul class="pcoded-item pcoded-left-item">
+                              <li class="pcoded-hasmenu">
+                                  <a href="javascript:void(0)">
+                                      <span class="pcoded-micon"><i class="feather icon-home"></i></span>
+                                      <span class="pcoded-mtext">Dashboard</span>
+                                  </a>
+                                  <ul class="pcoded-submenu">
+                                      <li class="">
+                                          <a href="index-1.htm">
+                                              <span class="pcoded-mtext">Default</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="dashboard-crm.htm">
+                                              <span class="pcoded-mtext">CRM</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="dashboard-analytics.htm">
+                                              <span class="pcoded-mtext">Analytics</span>
+                                              <span class="pcoded-badge label label-info ">NEW</span>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li class="pcoded-hasmenu">
+                                  <a href="javascript:void(0)">
+                                      <span class="pcoded-micon"><i class="feather icon-sidebar"></i></span>
+                                      <span class="pcoded-mtext">Page layouts</span>
+                                      <span class="pcoded-badge label label-warning">NEW</span>
+                                  </a>
+                                  <ul class="pcoded-submenu">
+                                      <li class=" pcoded-hasmenu">
+                                          <a href="javascript:void(0)">
+                                              <span class="pcoded-mtext">Vertical</span>
+                                          </a>
+                                          <ul class="pcoded-submenu">
+                                              <li class=" ">
+                                                  <a href="menu-static.htm">
+                                                      <span class="pcoded-mtext">Static Layout</span>
+                                                  </a>
+                                              </li>
+                                              <li class=" ">
+                                                  <a href="menu-header-fixed.htm">
+                                                      <span class="pcoded-mtext">Header Fixed</span>
+                                                  </a>
+                                              </li>
+                                              <li class=" ">
+                                                  <a href="menu-compact.htm">
+                                                      <span class="pcoded-mtext">Compact</span>
+                                                  </a>
+                                              </li>
+                                              <li class=" ">
+                                                  <a href="menu-sidebar.htm">
+                                                      <span class="pcoded-mtext">Sidebar Fixed</span>
+                                                  </a>
+                                              </li>
+
+                                          </ul>
+                                      </li>
+                                      <li class=" pcoded-hasmenu">
+                                          <a href="javascript:void(0)">
+                                              <span class="pcoded-mtext">Horizontal</span>
+                                          </a>
+                                          <ul class="pcoded-submenu">
+                                              <li class=" ">
+                                                  <a href="menu-horizontal-static.htm" target="_blank">
+                                                      <span class="pcoded-mtext">Static Layout</span>
+                                                  </a>
+                                              </li>
+                                              <li class=" ">
+                                                  <a href="menu-horizontal-fixed.htm" target="_blank">
+                                                      <span class="pcoded-mtext">Fixed layout</span>
+                                                  </a>
+                                              </li>
+                                              <li class=" ">
+                                                  <a href="menu-horizontal-icon.htm" target="_blank">
+                                                      <span class="pcoded-mtext">Static With Icon</span>
+                                                  </a>
+                                              </li>
+                                              <li class=" ">
+                                                  <a href="menu-horizontal-icon-fixed.htm" target="_blank">
+                                                      <span class="pcoded-mtext">Fixed With Icon</span>
+                                                  </a>
+                                              </li>
+                                          </ul>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="menu-bottom.htm">
+                                              <span class="pcoded-mtext">Bottom Menu</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="box-layout.htm" target="_blank">
+                                              <span class="pcoded-mtext">Box Layout</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="menu-rtl.htm" target="_blank">
+                                              <span class="pcoded-mtext">RTL</span>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li class="">
+                                  <a href="navbar-light.htm">
+                                      <span class="pcoded-micon"><i class="feather icon-menu"></i></span>
+                                      <span class="pcoded-mtext">Navigation</span>
+                                  </a>
+                              </li>
+                              <li class="pcoded-hasmenu">
+                                  <a href="javascript:void(0)">
+                                      <span class="pcoded-micon"><i class="feather icon-layers"></i></span>
+                                      <span class="pcoded-mtext">Widget</span>
+                                      <span class="pcoded-badge label label-danger">100+</span>
+                                  </a>
+                                  <ul class="pcoded-submenu">
+                                      <li class="">
+                                          <a href="widget-statistic.htm">
+                                              <span class="pcoded-mtext">Statistic</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="widget-data.htm">
+                                              <span class="pcoded-mtext">Data</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="widget-chart.htm">
+                                              <span class="pcoded-mtext">Chart Widget</span>
+                                          </a>
+                                      </li>
+
+                                  </ul>
+                              </li>
+                          </ul>
+                          <div class="pcoded-navigatio-lavel">UI Element</div>
+                          <ul class="pcoded-item pcoded-left-item">
+                              <li class="pcoded-hasmenu">
+                                  <a href="javascript:void(0)">
+                                      <span class="pcoded-micon"><i class="feather icon-box"></i></span>
+                                      <span class="pcoded-mtext">Basic Components</span>
+                                  </a>
+                                  <ul class="pcoded-submenu">
+                                      <li class=" ">
+                                          <a href="alert.htm">
+                                              <span class="pcoded-mtext">Alert</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="breadcrumb.htm">
+                                              <span class="pcoded-mtext">Breadcrumbs</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="button.htm">
+                                              <span class="pcoded-mtext">Button</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="box-shadow.htm">
+                                              <span class="pcoded-mtext">Box-Shadow</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="accordion.htm">
+                                              <span class="pcoded-mtext">Accordion</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="generic-class.htm">
+                                              <span class="pcoded-mtext">Generic Class</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="tabs.htm">
+                                              <span class="pcoded-mtext">Tabs</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="color.htm">
+                                              <span class="pcoded-mtext">Color</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="label-badge.htm">
+                                              <span class="pcoded-mtext">Label Badge</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="progress-bar.htm">
+                                              <span class="pcoded-mtext">Progress Bar</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="preloader.htm">
+                                              <span class="pcoded-mtext">Pre-Loader</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="list.htm">
+                                              <span class="pcoded-mtext">List</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="tooltip.htm">
+                                              <span class="pcoded-mtext">Tooltip And Popover</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="typography.htm">
+                                              <span class="pcoded-mtext">Typography</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="other.htm">
+                                              <span class="pcoded-mtext">Other</span>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li class="pcoded-hasmenu">
+                                  <a href="javascript:void(0)">
+                                      <span class="pcoded-micon"><i class="feather icon-gitlab"></i></span>
+                                      <span class="pcoded-mtext">Advance Components</span>
+                                  </a>
+                                  <ul class="pcoded-submenu">
+                                      <li class=" ">
+                                          <a href="draggable.htm">
+                                              <span class="pcoded-mtext">Draggable</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="bs-grid.htm">
+                                              <span class="pcoded-mtext">Grid Stack</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="light-box.htm">
+                                              <span class="pcoded-mtext">Light Box</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="modal.htm">
+                                              <span class="pcoded-mtext">Modal</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="notification.htm">
+                                              <span class="pcoded-mtext">Notifications</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="notify.htm">
+                                              <span class="pcoded-mtext">PNOTIFY</span>
+                                              <span class="pcoded-badge label label-info">NEW</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="rating.htm">
+                                              <span class="pcoded-mtext">Rating</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="range-slider.htm">
+                                              <span class="pcoded-mtext">Range Slider</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="slider.htm">
+                                              <span class="pcoded-mtext">Slider</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="syntax-highlighter.htm">
+                                              <span class="pcoded-mtext">Syntax Highlighter</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="tour.htm">
+                                              <span class="pcoded-mtext">Tour</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="treeview.htm">
+                                              <span class="pcoded-mtext">Tree View</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="nestable.htm">
+                                              <span class="pcoded-mtext">Nestable</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="toolbar.htm">
+                                              <span class="pcoded-mtext">Toolbar</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="x-editable.htm">
+                                              <span class="pcoded-mtext">X-Editable</span>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li class="pcoded-hasmenu">
+                                  <a href="javascript:void(0)">
+                                      <span class="pcoded-micon"><i class="feather icon-package"></i></span>
+                                      <span class="pcoded-mtext">Extra Components</span>
+                                  </a>
+                                  <ul class="pcoded-submenu">
+                                      <li class=" ">
+                                          <a href="session-timeout.htm">
+                                              <span class="pcoded-mtext">Session Timeout</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="session-idle-timeout.htm">
+                                              <span class="pcoded-mtext">Session Idle Timeout</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="offline.htm">
+                                              <span class="pcoded-mtext">Offline</span>
+                                          </a>
+                                      </li>
+
+                                  </ul>
+                              </li>
+                              <li class=" ">
+                                  <a href="animation.htm">
+                                      <span class="pcoded-micon"><i class="feather icon-aperture rotate-refresh"></i><b>A</b></span>
+                                      <span class="pcoded-mtext">Animations</span>
+                                  </a>
+                              </li>
+                              <li class=" ">
+                                  <a href="sticky.htm">
+                                      <span class="pcoded-micon"><i class="feather icon-cpu"></i></span>
+                                      <span class="pcoded-mtext">Sticky Notes</span>
+                                      <span class="pcoded-badge label label-danger">HOT</span>
+                                  </a>
+                              </li>
+                              <li class="pcoded-hasmenu">
+                                  <a href="javascript:void(0)">
+                                      <span class="pcoded-micon"><i class="feather icon-command"></i></span>
+                                      <span class="pcoded-mtext">Icons</span>
+                                  </a>
+                                  <ul class="pcoded-submenu">
+                                      <li class=" ">
+                                          <a href="icon-font-awesome.htm">
+                                              <span class="pcoded-mtext">Font Awesome</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="icon-themify.htm">
+                                              <span class="pcoded-mtext">Themify</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="icon-simple-line.htm">
+                                              <span class="pcoded-mtext">Simple Line Icon</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="icon-ion.htm">
+                                              <span class="pcoded-mtext">Ion Icon</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="icon-material-design.htm">
+                                              <span class="pcoded-mtext">Material Design</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="icon-icofonts.htm">
+                                              <span class="pcoded-mtext">Ico Fonts</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="icon-weather.htm">
+                                              <span class="pcoded-mtext">Weather Icon</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="icon-typicons.htm">
+                                              <span class="pcoded-mtext">Typicons</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="icon-flags.htm">
+                                              <span class="pcoded-mtext">Flags</span>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </li>
+                          </ul>
+                          <div class="pcoded-navigatio-lavel">Forms</div>
+                          <ul class="pcoded-item pcoded-left-item">
+                              <li class="pcoded-hasmenu">
+                                  <a href="javascript:void(0)">
+                                      <span class="pcoded-micon"><i class="feather icon-clipboard"></i></span>
+                                      <span class="pcoded-mtext">Form Components</span>
+                                  </a>
+                                  <ul class="pcoded-submenu">
+                                      <li class=" ">
+                                          <a href="form-elements-component.htm">
+                                              <span class="pcoded-mtext">Form Components</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="form-elements-add-on.htm">
+                                              <span class="pcoded-mtext">Form-Elements-Add-On</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="form-elements-advance.htm">
+                                              <span class="pcoded-mtext">Form-Elements-Advance</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="form-validation.htm">
+                                              <span class="pcoded-mtext">Form Validation</span>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li class=" ">
+                                  <a href="form-picker.htm">
+                                      <span class="pcoded-micon"><i class="feather icon-edit-1"></i></span>
+                                      <span class="pcoded-mtext">Form Picker</span>
+                                      <span class="pcoded-badge label label-warning">NEW</span>
+                                  </a>
+                              </li>
+                              <li class=" ">
+                                  <a href="form-select.htm">
+                                      <span class="pcoded-micon"><i class="feather icon-feather"></i></span>
+                                      <span class="pcoded-mtext">Form Select</span>
+                                  </a>
+                              </li>
+                              <li class=" ">
+                                  <a href="form-masking.htm">
+                                      <span class="pcoded-micon"><i class="feather icon-shield"></i></span>
+                                      <span class="pcoded-mtext">Form Masking</span>
+                                  </a>
+                              </li>
+                              <li class=" ">
+                                  <a href="form-wizard.htm">
+                                      <span class="pcoded-micon"><i class="feather icon-tv"></i></span>
+                                      <span class="pcoded-mtext">Form Wizard</span>
+                                  </a>
+                              </li>
+                              <li class="pcoded-hasmenu">
+                                  <a href="javascript:void(0)">
+                                      <span class="pcoded-micon"><i class="feather icon-book"></i></span>
+                                      <span class="pcoded-mtext">Ready To Use</span>
+                                      <span class="pcoded-badge label label-danger">HOT</span>
+                                  </a>
+                                  <ul class="pcoded-submenu">
+                                      <li class=" ">
+                                          <a href="ready-cloned-elements-form.htm">
+                                              <span class="pcoded-mtext">Cloned Elements Form</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="ready-currency-form.htm">
+                                              <span class="pcoded-mtext">Currency Form</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="ready-form-booking.htm">
+                                              <span class="pcoded-mtext">Booking Form</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="ready-form-booking-multi-steps.htm">
+                                              <span class="pcoded-mtext">Booking Multi Steps Form</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="ready-form-comment.htm">
+                                              <span class="pcoded-mtext">Comment Form</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="ready-form-contact.htm">
+                                              <span class="pcoded-mtext">Contact Form</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="ready-job-application-form.htm">
+                                              <span class="pcoded-mtext">Job Application Form</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="ready-js-addition-form.htm">
+                                              <span class="pcoded-mtext">JS Addition Form</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="ready-login-form.htm">
+                                              <span class="pcoded-mtext">Login Form</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="ready-popup-modal-form.htm" target="_blank">
+                                              <span class="pcoded-mtext">Popup Modal Form</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="ready-registration-form.htm">
+                                              <span class="pcoded-mtext">Registration Form</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="ready-review-form.htm">
+                                              <span class="pcoded-mtext">Review Form</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="ready-subscribe-form.htm">
+                                              <span class="pcoded-mtext">Subscribe Form</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="ready-suggestion-form.htm">
+                                              <span class="pcoded-mtext">Suggestion Form</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="ready-tabs-form.htm">
+                                              <span class="pcoded-mtext">Tabs Form</span>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </li>
+                          </ul>
+                          <div class="pcoded-navigatio-lavel">Tables</div>
+                          <ul class="pcoded-item pcoded-left-item">
+                              <li class="pcoded-hasmenu">
+                                  <a href="javascript:void(0)">
+                                      <span class="pcoded-micon"><i class="feather icon-credit-card"></i></span>
+                                      <span class="pcoded-mtext">Bootstrap Table</span>
+                                  </a>
+                                  <ul class="pcoded-submenu">
+                                      <li class=" ">
+                                          <a href="bs-basic-table.htm">
+                                              <span class="pcoded-mtext">Basic Table</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="bs-table-sizing.htm">
+                                              <span class="pcoded-mtext">Sizing Table</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="bs-table-border.htm">
+                                              <span class="pcoded-mtext">Border Table</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="bs-table-styling.htm">
+                                              <span class="pcoded-mtext">Styling Table</span>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li class="pcoded-hasmenu">
+                                  <a href="javascript:void(0)">
+                                      <span class="pcoded-micon"><i class="feather icon-inbox"></i></span>
+                                      <span class="pcoded-mtext">Data Table</span>
+                                      <span class="pcoded-mcaret"></span>
+                                  </a>
+                                  <ul class="pcoded-submenu">
+                                      <li class=" ">
+                                          <a href="dt-basic.htm">
+                                              <span class="pcoded-mtext">Basic Initialization</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="dt-advance.htm">
+                                              <span class="pcoded-mtext">Advance Initialization</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="dt-styling.htm">
+                                              <span class="pcoded-mtext">Styling</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="dt-api.htm">
+                                              <span class="pcoded-mtext">API</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="dt-ajax.htm">
+                                              <span class="pcoded-mtext">Ajax</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="dt-server-side.htm">
+                                              <span class="pcoded-mtext">Server Side</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="dt-plugin.htm">
+                                              <span class="pcoded-mtext">Plug-In</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="dt-data-sources.htm">
+                                              <span class="pcoded-mtext">Data Sources</span>
+                                          </a>
+                                      </li>
+
+                                  </ul>
+                              </li>
+                              <li class="pcoded-hasmenu">
+                                  <a href="javascript:void(0)">
+                                      <span class="pcoded-micon"><i class="feather icon-server"></i></span>
+                                      <span class="pcoded-mtext">Data Table Extensions</span>
+                                  </a>
+                                  <ul class="pcoded-submenu">
+                                      <li class=" ">
+                                          <a href="dt-ext-autofill.htm">
+                                              <span class="pcoded-mtext">AutoFill</span>
+                                          </a>
+                                      </li>
+                                      <li class="pcoded-hasmenu">
+                                          <a href="javascript:void(0)">
+                                              <span class="pcoded-mtext">Button</span>
+                                          </a>
+                                          <ul class="pcoded-submenu">
+                                              <li class=" ">
+                                                  <a href="dt-ext-basic-buttons.htm">
+                                                      <span class="pcoded-mtext">Basic Button</span>
+                                                  </a>
+                                              </li>
+                                              <li class=" ">
+                                                  <a href="dt-ext-buttons-html-5-data-export.htm">
+                                                      <span class="pcoded-mtext">Html-5 Data Export</span>
+                                                  </a>
+                                              </li>
+                                          </ul>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="dt-ext-col-reorder.htm">
+                                              <span class="pcoded-mtext">Col Reorder</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="dt-ext-fixed-columns.htm">
+                                              <span class="pcoded-mtext">Fixed Columns</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="dt-ext-fixed-header.htm">
+                                              <span class="pcoded-mtext">Fixed Header</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="dt-ext-key-table.htm">
+                                              <span class="pcoded-mtext">Key Table</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="dt-ext-responsive.htm">
+                                              <span class="pcoded-mtext">Responsive</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="dt-ext-row-reorder.htm">
+                                              <span class="pcoded-mtext">Row Reorder</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="dt-ext-scroller.htm">
+                                              <span class="pcoded-mtext">Scroller</span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="dt-ext-select.htm">
+                                              <span class="pcoded-mtext">Select Table</span>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li class=" ">
+                                  <a href="foo-table.htm">
+                                      <span class="pcoded-micon"><i class="feather icon-hash"></i></span>
+                                      <span class="pcoded-mtext">FooTable</span>
+                                  </a>
+                              </li>
+                              <li class="pcoded-hasmenu ">
+                                  <a href="javascript:void(0)">
+                                      <span class="pcoded-micon"><i class="feather icon-airplay"></i></span>
+                                      <span class="pcoded-mtext">Handson Table</span>
+                                  </a>
+                                  <ul class="pcoded-submenu">
+                                      <li class="">
+                                          <a href="handson-appearance.htm">
+                                              <span class="pcoded-mtext">Appearance</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="handson-data-operation.htm">
+                                              <span class="pcoded-mtext">Data Operation</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="handson-rows-cols.htm">
+                                              <span class="pcoded-mtext">Rows Columns</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="handson-columns-only.htm">
+                                              <span class="pcoded-mtext">Columns Only</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="handson-cell-features.htm">
+                                              <span class="pcoded-mtext">Cell Features</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="handson-cell-types.htm">
+                                              <span class="pcoded-mtext">Cell Types</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="handson-integrations.htm">
+                                              <span class="pcoded-mtext">Integrations</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="handson-rows-only.htm">
+                                              <span class="pcoded-mtext">Rows Only</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="handson-utilities.htm">
+                                              <span class="pcoded-mtext">Utilities</span>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li class="">
+                                  <a href="editable-table.htm">
+                                      <span class="pcoded-micon"><i class="feather icon-edit"></i></span>
+                                      <span class="pcoded-mtext">Editable Table</span>
+                                  </a>
+                              </li>
+                          </ul>
+                          <div class="pcoded-navigatio-lavel">Chart And Maps</div>
+                          <ul class="pcoded-item pcoded-left-item">
+                              <li class="pcoded-hasmenu ">
+                                  <a href="javascript:void(0)">
+                                      <span class="pcoded-micon"><i class="feather icon-pie-chart"></i></span>
+                                      <span class="pcoded-mtext">Charts</span>
+                                  </a>
+                                  <ul class="pcoded-submenu">
+                                      <li class="">
+                                          <a href="chart-google.htm">
+                                              <span class="pcoded-mtext">Google Chart</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="chart-echart.htm">
+                                              <span class="pcoded-mtext">Echarts</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="chart-chartjs.htm">
+                                              <span class="pcoded-mtext">ChartJs</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="chart-list.htm">
+                                              <span class="pcoded-mtext">List Chart</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="chart-float.htm">
+                                              <span class="pcoded-mtext">Float Chart</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="chart-knob.htm">
+                                              <span class="pcoded-mtext">Knob chart</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="chart-morris.htm">
+                                              <span class="pcoded-mtext">Morris Chart</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="chart-nvd3.htm">
+                                              <span class="pcoded-mtext">Nvd3 Chart</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="chart-peity.htm">
+                                              <span class="pcoded-mtext">Peity Chart</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="chart-radial.htm">
+                                              <span class="pcoded-mtext">Radial Chart</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="chart-rickshaw.htm">
+                                              <span class="pcoded-mtext">Rickshaw Chart</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="chart-sparkline.htm">
+                                              <span class="pcoded-mtext">Sparkline Chart</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="chart-c3.htm">
+                                              <span class="pcoded-mtext">C3 Chart</span>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li class="pcoded-hasmenu ">
+                                  <a href="javascript:void(0)">
+                                      <span class="pcoded-micon"><i class="feather icon-map"></i></span>
+                                      <span class="pcoded-mtext">Maps</span>
+                                  </a>
+                                  <ul class="pcoded-submenu">
+                                      <li class="">
+                                          <a href="map-google.htm">
+                                              <span class="pcoded-mtext">Google Maps</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="map-vector.htm">
+                                              <span class="pcoded-mtext">Vector Maps</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="map-api.htm">
+                                              <span class="pcoded-mtext">Google Map Search API</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="location.htm">
+                                              <span class="pcoded-mtext">Location</span>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li class="">
+                                  <a href="..\files\extra-pages\landingpage\index.htm" target="_blank">
+                                      <span class="pcoded-micon"><i class="feather icon-navigation-2"></i></span>
+                                      <span class="pcoded-mtext">Landing Page</span>
+                                  </a>
+                              </li>
+                          </ul>
+                          <div class="pcoded-navigatio-lavel">Pages</div>
+                          <ul class="pcoded-item pcoded-left-item">
+                              <li class="pcoded-hasmenu ">
+                                  <a href="javascript:void(0)">
+                                      <span class="pcoded-micon"><i class="feather icon-unlock"></i></span>
+                                      <span class="pcoded-mtext">Authentication</span>
+                                  </a>
+                                  <ul class="pcoded-submenu">
+                                      <li class="">
+                                          <a href="auth-normal-sign-in.htm" target="_blank">
+                                              <span class="pcoded-mtext">Login With BG Image</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="auth-sign-in-social.htm" target="_blank">
+                                              <span class="pcoded-mtext">Login With Social Icon</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="auth-sign-in-social-header-footer.htm" target="_blank">
+                                              <span class="pcoded-mtext">Login Social With Header And Footer</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="auth-normal-sign-in-header-footer.htm" target="_blank">
+                                              <span class="pcoded-mtext">Login With Header And Footer</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="auth-sign-up.htm" target="_blank">
+                                              <span class="pcoded-mtext">Registration BG Image</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="auth-sign-up-social.htm" target="_blank">
+                                              <span class="pcoded-mtext">Registration Social Icon</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="auth-sign-up-social-header-footer.htm" target="_blank">
+                                              <span class="pcoded-mtext">Registration Social With Header And Footer</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="auth-sign-up-header-footer.htm" target="_blank">
+                                              <span class="pcoded-mtext">Registration With Header And Footer</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="auth-multi-step-sign-up.htm" target="_blank">
+                                              <span class="pcoded-mtext">Multi Step Registration</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="auth-reset-password.htm" target="_blank">
+                                              <span class="pcoded-mtext">Forgot Password</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="auth-lock-screen.htm" target="_blank">
+                                              <span class="pcoded-mtext">Lock Screen</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="auth-modal.htm" target="_blank">
+                                              <span class="pcoded-mtext">Modal</span>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li class="pcoded-hasmenu ">
+                                  <a href="javascript:void(0)">
+                                      <span class="pcoded-micon"><i class="feather icon-sliders"></i></span>
+                                      <span class="pcoded-mtext">Maintenance</span>
+                                  </a>
+                                  <ul class="pcoded-submenu">
+                                      <li class="">
+                                          <a href="error.htm">
+                                              <span class="pcoded-mtext">Error</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="comming-soon.htm">
+                                              <span class="pcoded-mtext">Comming Soon</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="offline-ui.htm">
+                                              <span class="pcoded-mtext">Offline UI</span>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li class="pcoded-hasmenu ">
+                                  <a href="javascript:void(0)">
+                                      <span class="pcoded-micon"><i class="feather icon-users"></i></span>
+                                      <span class="pcoded-mtext">User Profile</span>
+                                  </a>
+                                  <ul class="pcoded-submenu">
+                                      <li class="">
+                                          <a href="timeline.htm">
+                                              <span class="pcoded-mtext">Timeline</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="timeline-social.htm">
+                                              <span class="pcoded-mtext">Timeline Social</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="user-profile.htm">
+                                              <span class="pcoded-mtext">User Profile</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="user-card.htm">
+                                              <span class="pcoded-mtext">User Card</span>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li class="pcoded-hasmenu ">
+                                  <a href="javascript:void(0)">
+                                      <span class="pcoded-micon"><i class="feather icon-shopping-cart"></i></span>
+                                      <span class="pcoded-mtext">E-Commerce</span>
+                                      <span class="pcoded-badge label label-danger">NEW</span>
+                                  </a>
+                                  <ul class="pcoded-submenu">
+                                      <li class="">
+                                          <a href="product.htm">
+                                              <span class="pcoded-mtext">Product</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="product-list.htm">
+                                              <span class="pcoded-mtext">Product List</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="product-edit.htm">
+                                              <span class="pcoded-mtext">Product Edit</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="product-detail.htm">
+                                              <span class="pcoded-mtext">Product Detail</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="product-cart.htm">
+                                              <span class="pcoded-mtext">Product Card</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="product-payment.htm">
+                                              <span class="pcoded-mtext">Credit Card Form</span>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li class="pcoded-hasmenu ">
+                                  <a href="javascript:void(0)">
+                                      <span class="pcoded-micon"><i class="feather icon-mail"></i></span>
+                                      <span class="pcoded-mtext">Email</span>
+                                  </a>
+                                  <ul class="pcoded-submenu">
+                                      <li class="">
+                                          <a href="email-compose.htm">
+                                              <span class="pcoded-mtext">Compose Email</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="email-inbox.htm">
+                                              <span class="pcoded-mtext">Inbox</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="email-read.htm">
+                                              <span class="pcoded-mtext">Read Mail</span>
+                                          </a>
+                                      </li>
+                                      <li class="pcoded-hasmenu ">
+                                          <a href="javascript:void(0)">
+                                              <span class="pcoded-mtext">Email Template</span>
+                                          </a>
+                                          <ul class="pcoded-submenu">
+                                              <li class="">
+                                                  <a href="..\files\extra-pages\email-templates\email-welcome.htm">
+                                                      <span class="pcoded-mtext">Welcome Email</span>
+                                                  </a>
+                                              </li>
+                                              <li class="">
+                                                  <a href="..\files\extra-pages\email-templates\email-password.htm">
+                                                      <span class="pcoded-mtext">Reset Password</span>
+                                                  </a>
+                                              </li>
+                                              <li class="">
+                                                  <a href="..\files\extra-pages\email-templates\email-newsletter.htm">
+                                                      <span class="pcoded-mtext">Newsletter Email</span>
+                                                  </a>
+                                              </li>
+                                              <li class="">
+                                                  <a href="..\files\extra-pages\email-templates\email-launch.htm">
+                                                      <span class="pcoded-mtext">App Launch</span>
+                                                  </a>
+                                              </li>
+                                              <li class="">
+                                                  <a href="..\files\extra-pages\email-templates\email-activation.htm">
+                                                      <span class="pcoded-mtext">Activation Code</span>
+                                                  </a>
+                                              </li>
+                                          </ul>
+                                      </li>
+                                  </ul>
+                              </li>
+                          </ul>
+                          <div class="pcoded-navigatio-lavel">App</div>
+                          <ul class="pcoded-item pcoded-left-item">
+                              <li class=" ">
+                                  <a href="chat.htm">
+                                      <span class="pcoded-micon"><i class="feather icon-message-square"></i></span>
+                                      <span class="pcoded-mtext">Chat</span>
+                                  </a>
+                              </li>
+                              <li class="pcoded-hasmenu ">
+                                  <a href="javascript:void(0)">
+                                      <span class="pcoded-micon"><i class="feather icon-globe"></i></span>
+                                      <span class="pcoded-mtext">Social</span>
+                                  </a>
+                                  <ul class="pcoded-submenu">
+                                      <li class="">
+                                          <a href="fb-wall.htm">
+                                              <span class="pcoded-mtext">Wall</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="message.htm">
+                                              <span class="pcoded-mtext">Messages</span>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li class="pcoded-hasmenu ">
+                                  <a href="javascript:void(0)">
+                                      <span class="pcoded-micon"><i class="feather icon-check-circle"></i></span>
+                                      <span class="pcoded-mtext">Task</span>
+                                  </a>
+                                  <ul class="pcoded-submenu">
+                                      <li class="">
+                                          <a href="task-list.htm">
+                                              <span class="pcoded-mtext">Task List</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="task-board.htm">
+                                              <span class="pcoded-mtext">Task Board</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="task-detail.htm">
+                                              <span class="pcoded-mtext">Task Detail</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="issue-list.htm">
+                                              <span class="pcoded-mtext">Issue List</span>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li class="pcoded-hasmenu ">
+                                  <a href="javascript:void(0)">
+                                      <span class="pcoded-micon"><i class="feather icon-bookmark"></i></span>
+                                      <span class="pcoded-mtext">To-Do</span>
+                                  </a>
+                                  <ul class="pcoded-submenu">
+                                      <li class="">
+                                          <a href="todo.htm">
+                                              <span class="pcoded-mtext">To-Do</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="notes.htm">
+                                              <span class="pcoded-mtext">Notes</span>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li class="pcoded-hasmenu ">
+                                  <a href="javascript:void(0)">
+                                      <span class="pcoded-micon"><i class="feather icon-image"></i></span>
+                                      <span class="pcoded-mtext">Gallery</span>
+                                  </a>
+                                  <ul class="pcoded-submenu">
+                                      <li class="">
+                                          <a href="gallery-grid.htm">
+                                              <span class="pcoded-mtext">Gallery-Grid</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="gallery-masonry.htm">
+                                              <span class="pcoded-mtext">Masonry Gallery</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="gallery-advance.htm">
+                                              <span class="pcoded-mtext">Advance Gallery</span>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li class="pcoded-hasmenu ">
+                                  <a href="javascript:void(0)">
+                                      <span class="pcoded-micon"><i class="feather icon-search"></i><b>S</b></span>
+                                      <span class="pcoded-mtext">Search</span>
+                                  </a>
+                                  <ul class="pcoded-submenu">
+                                      <li class="">
+                                          <a href="search-result.htm">
+                                              <span class="pcoded-mtext">Simple Search</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="search-result2.htm">
+                                              <span class="pcoded-mtext">Grouping Search</span>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li class="pcoded-hasmenu pcoded-trigger">
+                                  <a href="javascript:void(0)">
+                                      <span class="pcoded-micon"><i class="feather icon-award"></i></span>
+                                      <span class="pcoded-mtext">Job Search</span>
+                                      <span class="pcoded-badge label label-danger">NEW</span>
+                                  </a>
+                                  <ul class="pcoded-submenu">
+                                      <li class="">
+                                          <a href="job-card-view.htm">
+                                              <span class="pcoded-mtext">Card View</span>
+                                          </a>
+                                      </li>
+                                      <li class="active">
+                                          <a href="job-details.htm">
+                                              <span class="pcoded-mtext">Job Detailed</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="job-find.htm">
+                                              <span class="pcoded-mtext">Job Find</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="job-panel-view.htm">
+                                              <span class="pcoded-mtext">Job Panel View</span>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </li>
+                          </ul>
+                          <div class="pcoded-navigatio-lavel">Extension</div>
+                          <ul class="pcoded-item pcoded-left-item">
+                              <li class="pcoded-hasmenu ">
+                                  <a href="javascript:void(0)">
+                                      <span class="pcoded-micon"><i class="feather icon-file-plus"></i></span>
+                                      <span class="pcoded-mtext">Editor</span>
+                                  </a>
+                                  <ul class="pcoded-submenu">
+                                      <li class="">
+                                          <a href="ck-editor.htm">
+                                              <span class="pcoded-mtext">CK-Editor</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="wysiwyg-editor.htm">
+                                              <span class="pcoded-mtext">WYSIWYG Editor</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="ace-editor.htm">
+                                              <span class="pcoded-mtext">Ace Editor</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="long-press-editor.htm">
+                                              <span class="pcoded-mtext">Long Press Editor</span>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </li>
+                          </ul>
+                          <ul class="pcoded-item pcoded-left-item">
+                              <li class="pcoded-hasmenu ">
+                                  <a href="javascript:void(0)">
+                                      <span class="pcoded-micon"><i class="feather icon-file-minus"></i></span>
+                                      <span class="pcoded-mtext">Invoice</span>
+                                  </a>
+                                  <ul class="pcoded-submenu">
+                                      <li class="">
+                                          <a href="invoice.htm">
+                                              <span class="pcoded-mtext">Invoice</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="invoice-summary.htm">
+                                              <span class="pcoded-mtext">Invoice Summary</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="invoice-list.htm">
+                                              <span class="pcoded-mtext">Invoice List</span>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li class="pcoded-hasmenu ">
+                                  <a href="javascript:void(0)">
+                                      <span class="pcoded-micon"><i class="feather icon-calendar"></i></span>
+                                      <span class="pcoded-mtext">Event Calendar</span>
+                                  </a>
+                                  <ul class="pcoded-submenu">
+                                      <li class="">
+                                          <a href="event-full-calender.htm">
+                                              <span class="pcoded-mtext">Full Calendar</span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="event-clndr.htm">
+                                              <span class="pcoded-mtext">CLNDER</span>
+                                              <span class="pcoded-badge label label-info">NEW</span>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li class="">
+                                  <a href="image-crop.htm">
+                                      <span class="pcoded-micon"><i class="feather icon-scissors"></i></span>
+                                      <span class="pcoded-mtext">Image Cropper</span>
+                                  </a>
+                              </li>
+                              <li class="">
+                                  <a href="file-upload.htm">
+                                      <span class="pcoded-micon"><i class="feather icon-upload-cloud"></i></span>
+                                      <span class="pcoded-mtext">File Upload</span>
+                                  </a>
+                              </li>
+                              <li class="">
+                                  <a href="change-loges.htm">
+                                      <span class="pcoded-micon"><i class="feather icon-briefcase"></i><b>CL</b></span>
+                                      <span class="pcoded-mtext">Change Loges</span>
+                                  </a>
+                              </li>
+                          </ul>
+                          <div class="pcoded-navigatio-lavel">Other</div>
+                          <ul class="pcoded-item pcoded-left-item">
+                              <li class="pcoded-hasmenu ">
+                                  <a href="javascript:void(0)">
+                                      <span class="pcoded-micon"><i class="feather icon-list"></i></span>
+                                      <span class="pcoded-mtext">Menu Levels</span>
+                                  </a>
+                                  <ul class="pcoded-submenu">
+                                      <li class="">
+                                          <a href="javascript:void(0)">
+                                              <span class="pcoded-mtext">Menu Level 2.1</span>
+                                          </a>
+                                      </li>
+                                      <li class="pcoded-hasmenu ">
+                                          <a href="javascript:void(0)">
+                                              <span class="pcoded-mtext">Menu Level 2.2</span>
+                                          </a>
+                                          <ul class="pcoded-submenu">
+                                              <li class="">
+                                                  <a href="javascript:void(0)">
+                                                      <span class="pcoded-mtext">Menu Level 3.1</span>
+                                                  </a>
+                                              </li>
+                                          </ul>
+                                      </li>
+                                      <li class="">
+                                          <a href="javascript:void(0)">
+                                              <span class="pcoded-mtext">Menu Level 2.3</span>
+                                          </a>
+                                      </li>
+
+                                  </ul>
+                              </li>
+                              <li class="">
+                                  <a href="javascript:void(0)" class="disabled">
+                                      <span class="pcoded-micon"><i class="feather icon-power"></i></span>
+                                      <span class="pcoded-mtext">Disabled Menu</span>
+                                  </a>
+                              </li>
+                              <li class="">
+                                  <a href="sample-page.htm">
+                                      <span class="pcoded-micon"><i class="feather icon-watch"></i></span>
+                                      <span class="pcoded-mtext">Sample Page</span>
+                                  </a>
+                              </li>
+                          </ul>
+                          <div class="pcoded-navigatio-lavel">Support</div>
+                          <ul class="pcoded-item pcoded-left-item">
+                              <li class="">
+                                  <a href="http://html.codedthemes.com/Adminty/doc" target="_blank">
+                                      <span class="pcoded-micon"><i class="feather icon-monitor"></i></span>
+                                      <span class="pcoded-mtext">Documentation</span>
+                                  </a>
+                              </li>
+                              <li class="">
+                                  <a href="#" target="_blank">
+                                      <span class="pcoded-micon"><i class="feather icon-help-circle"></i></span>
+                                      <span class="pcoded-mtext">Submit Issue</span>
+                                  </a>
+                              </li>
+                          </ul>
+                      </div>
+                  </nav>
+                  <div class="pcoded-content">
+                      <div class="pcoded-inner-content">
+                          <!-- Main-body start -->
+                          <div class="main-body">
+                              <div class="page-wrapper">
+                                  <!-- Page-header start -->
+                                  <div class="page-header">
+                                      <div class="row align-items-end">
+                                          <div class="col-lg-8">
+                                              <div class="page-header-title">
+                                                  <div class="d-inline">
+                                                      <h4>Job Details</h4>
+                                                      <span>Here you got your job details</span>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="col-lg-4">
+                                              <div class="page-header-breadcrumb">
+                                                  <ul class="breadcrumb-title">
+                                                      <li class="breadcrumb-item">
+                                                          <a href="index-1.htm"> <i class="feather icon-home"></i> </a>
+                                                      </li>
+                                                      <li class="breadcrumb-item"><a href="#!">Job Search</a>
+                                                      </li>
+                                                      <li class="breadcrumb-item"><a href="#!">Job Detailed</a>
+                                                      </li>
+                                                  </ul>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <!-- Page-header end -->
+                                <!-- Page body start -->
+                                <div class="page-body">
+                                    <div class="row">
+                                        <!-- Left column start -->
+                                        <div class="col-lg-12 col-xl-9">
+                                            <!-- Job description card start -->
+                                            <div class="card">
+                                                <div class="card-header">
+                                                    <h5>Flat UX/UI Designer</h5>
+                                                    <span class="text-muted f-14 m-b-10">14 February, 2017</span>
+                                                    <p class="text-muted m-b-0">lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                </div>
+                                                <div class="card-block">
+                                                    <h4 class="sub-title">Job Description</h4>
+                                                    <p>Named among Fortune’s 2016 World’s Most Admired Companies, Flex offers a world of innovation, learning opportunities, and a strong reputation as environmentally responsible citizens. We are a leading sketch-to-scale™ company that designs and builds intelligent products for a connected world. With more than 200,000 professionals across 30 countries, and a promise to help the world Live smarter™, Flex provides innovative design, engineering, manufacturing, real-time supply chain insight and logistics services to companies of all sizes in various industries and end-markets.</p>
+                                                    <p>With more than 100,000 team members globally, we promote an environment that is rooted in the entrepreneurial spirit in which the company was founded. Dell ’ s team members are committed to serving our communities, regularly volunteering for over 1,500 non-profit organizations. The company has also received many accolades from employer of choice to energy conservation. Our team members follow an open approach to technology innovation and believe that technology is essential for human success.</p>
+                                                    <p>We are looking for a Interaction UX/UI Industrial Designer for our Product Development team!</p>
+                                                    <h4 class="sub-title">Responsibilities :</h4>
+                                                    <p>You will work closely with our product owners and the analytics team to help drive and ensure a best-in-class user experience on web, tablet and mobile platforms. With your knowledge and passion for keeping up-to-date with the latest advances in user interface design and web related technologies. You will be creating high quality designs with the goal of ensuring continual improvement of our sites. To realise this you will guide and set the standards and design principles for all of our brands to follow and work towards to enhance their online success.</p>
+                                                    <ul class="job-details-list">
+                                                        <li>Gather, analyze, record and report on current market information with regard to the latest transportation methods.</li>
+                                                        <li>Work with the team to determine company and customer needs and make recommendations on cost effective transportation methods and assist in price negotiations if appropriate.</li>
+                                                        <li>Ensures lowest cost transportation by analyzing company and customer needs, researching transportation methods and auditing carrier costs and performances.</li>
+                                                        <li>Ensure laws, rules and regulations regarding shipping/transportation methods are adhered to and prepares applications for appropriate certifications and licenses.</li>
+                                                        <li>Prepare application for import / export control certifications and licenses (control documents).</li>
+                                                        <li>Maintain logs and compile information on routes, rates and services on various vendors.</li>
+                                                        <li>Arranges shipping details such as packing, shipping, and routing of product.</li>
+                                                        <li>Analyzes and recommends transportation and freight costs as well as appropriate routing and carriers to be used.</li>
+                                                        <li>Plans, schedules, and routes inbound and outbound domestic and international shipments of freight, using knowledge of applicable laws, tariffs, and Flextronics policies.</li>
+                                                        <li>Be familiar with compliance required for corporate, and facility policies and procedures and assist the team in ensuring the highest standards are adhered to in the process.</li>
+                                                        <li>Ensure Traffic Metrics are maintained and updated on a daily/weekly/monthly basis.</li>
+                                                        <li>Establish and maintain good relationships with agents / suppliers in order to achieve quality of service and consistent cost reduction.</li>
+                                                        <li>May schedule company vehicles for service and normal maintenance checks and is responsible for ensuring that all are registered and have the proper insurance.</li>
+                                                        <li>Support the team in terms of knowledge and experience in dealing with daily operational and transportation issues.</li>
+                                                    </ul>
+                                                    <h4 class="sub-title">Requirements :</h4>
+                                                    <ul class="job-details-list">
+                                                        <li>Undergraduate Industrial Design/Graphic Design degree and 6-8 years relevant experience or Graduate degree in a related field, plus 4-6 years relevant experience</li>
+                                                        <li>Strong skillset in digital design with an emphasis on Windows, mobile (iOS/Android), and web User Interfaces</li>
+                                                        <li>Ability to distill complex problems into intuitive, clean, user friendly designs</li>
+                                                        <li>Expert in User Experience concepts, Information Architecture, and software brand strategy</li>
+                                                        <li>Experience with creating detailed workflow specifications and behaviors for development teams</li>
+                                                        <li>Can process and integrate research studies, reports, trends, data, and information into plans, deliverables, and recommendations</li>
+                                                    </ul>
+                                                    <h4 class="sub-title">Desired Skills and Experience :</h4>
+                                                    <ul class="job-details-list">
+                                                        <li>
+                                                            <strong class="d-block">Strategic Thinking.</strong> You will not only solve design issues but will proactively offer ideas and insights to improve the customer's experience and visual challenges.
+                                                        </li>
+                                                        <li>
+                                                            <strong class="d-block">Creative Suite.</strong> Primarily Photoshop and Illustrator with some InDesign. Experience with Adobe Muse is also helpful.
+                                                        </li>
+                                                        <li>
+                                                            <strong class="d-block">Typography.</strong> We need a designer who knows typography visual hierarchy and styles and how to use them properly. Your work will be for the whole EMEA region and be translated into dozens of languages. Any experience with Asian and Middle Eastern languages and fonts will be useful.
+                                                        </li>
+                                                        <li>
+                                                            <strong class="d-block">Experimentation.</strong> Experience optimizing designs based on A/B testing is a plus.
+                                                        </li>
+                                                        <li>
+                                                            <strong class="d-block">Communication.</strong> We need someone who can own their time but also knows how to ask the right questions to ensure the right message is communicated in the right way.
+                                                        </li>
+                                                        <li>
+                                                            <strong class="d-block">Marketing.</strong> You are familiar with and have previously worked on a marketing team.
+                                                        </li>
+                                                        <li>
+                                                            <strong class="d-block">Asset Management.</strong> Assist with development and maintenance of a digital asset management system.
+                                                        </li>
+                                                    </ul>
+                                                    <h4 class="sub-title">What we offer :</h4>
+                                                    <ul class="job-details-list">
+                                                        <li>A learning prone environment where employee development and satisfaction lies at the heart of the organisation</li>
+                                                        <li>You choose and change your workplace besides our open office in our café area, or your home</li>
+                                                        <li>Life at Dell means collaborating with dedicated professionals with a passion for technology</li>
+                                                        <li>When we see something that could be improved, we get to work inventing the solution</li>
+                                                        <li>Our people demonstrate our winning culture through positive and meaningful relationship</li>
+                                                        <li>We invest in our people and offer a series of programs that enables them to pursue a career that fulfills their potential</li>
+                                                        <li>Our team members ’ health and wellness is our priority as well as rewarding them for their hard work</li>
+                                                    </ul>
+                                                    <h4 class="sub-title">Interested?</h4>
+                                                    <p>We look forward to hearing from you! Please apply directly using the apply button below or via our website. In case you have any further questions about the role, you are welcome to contact Elin Akerstrom, Recruitment Specialist on phone +1 (0123) 456 789.</p>
+                                                </div>
+                                                <div class="card-footer">
+                                                    <div class="row">
+                                                        <div class="col-sm-12 text-right">
+                                                            <button type="button" class="btn btn-primary waves-effect btn-sm waves-light m-r-10 m-t-10 m-b-10">
+                                                                Apply for this job
+                                                            </button>
+                                                            <button type="button" class="btn btn-success waves-effect btn-sm waves-light m-r-10 m-t-10 m-b-10">
+                                                                Save job
+                                                            </button>
+                                                            <button type="button" class="btn btn-default waves-effect btn-sm waves-light m-t-10 m-b-10">
+                                                                Share job
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Job description card end -->
+                                            <!-- Company profile card start -->
+                                            <div class="card company-profile">
+                                                <div class="card-header">
+                                                    <h5>Company Profile</h5>
+                                                    <div class="card-header-right job-compney-btn">
+                                                        <button type="button" class="btn btn-primary waves-effect waves-light btn-sm m-r-10">
+                                                            All Position
+                                                        </button>
+                                                        <button type="button" class="btn btn-default waves-effect waves-light btn-sm m-r-20">
+                                                            Follow
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                                <div class="card-block">
+                                                    <div class="media p-t-10 m-b-20 ">
+                                                        <a class="media-left" href="#">
+                                                            <img class="media-object m-r-10" src="..\files\assets\images\logo-blue.png" alt="Generic placeholder image">
+                                                        </a>
+                                                        <div class="media-body">
+                                                            <div class="row">
+                                                                <div class="col-md-12">
+                                                                    <div class="company-name">
+                                                                        <p>Flax UX/UI Industrial Designer</p>
+                                                                        <span class="text-muted">14 February, 2017</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <p>Across a Global footprint, we believe we’re at our best when you’re at yours. From our diverse workforce, our flexible working policies to our creative work spaces, we embrace a culture of learning and sharing to develop our next stage growth. It’s in our hearts to push forward, to create a better future, to never rest and find new ways that help people communicate.</p>
+                                                    <p>We are committed to developing the very best people by offering a flexible, motivating and inclusive workplace in which talent is truly recognised and rewarded. We respect, value and celebrate our people’s individual differences - we are not only multinational but multicultural too. That’s what we mean when we say Power to you.</p>
+                                                </div>
+                                            </div>
+                                            <!-- Company profile card end -->
+                                            <!-- Similar Jobs card start -->
+                                            <div class="card similar-job">
+                                                <div class="card-header">
+                                                    <h5>Similar Jobs</h5>
+                                                </div>
+                                                <div class="card-block">
+                                                    <div class="row">
+                                                        <div class="col-lg-12 col-xl-6">
+                                                            <div class="media p-t-10">
+                                                                <div class="media-left">
+                                                                    <img class="media-object m-r-10" src="..\files\assets\images\logo-blue.png" alt="Generic placeholder image">
+                                                                </div>
+                                                                <div class="media-body">
+                                                                    <div class="company-name">
+                                                                        <p><a href="#!">UX/UI Industrial Designer</a></p>
+                                                                        <span class="text-muted f-14">December 16, 2017</span></div>
+                                                                        <p class="text-muted">lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                                                                    </div>
+                                                                    <span class="media-right label-main">
+                                                                        <label class="label bg-primary">New</label>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-12 col-xl-6">
+                                                                <div class="media p-t-10">
+                                                                    <div class="media-left">
+                                                                        <img class="media-object m-r-10" src="..\files\assets\images\logo-blue.png" alt="Generic placeholder image">
+                                                                    </div>
+                                                                    <div class="media-body">
+                                                                        <div class="company-name">
+                                                                            <p><a href="#!">UI Industrial Designer</a></p>
+                                                                            <span class="text-muted f-14">December 16, 2017</span></div>
+                                                                            <p class="text-muted">lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                                                                        </div>
+                                                                        <span class="media-right label-main">
+                                                                            <label class="label bg-danger">30 days ago</label>
+                                                                        </span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-block">
+                                                            <div class="row">
+                                                                <div class="col-lg-12 col-xl-6">
+                                                                    <div class="media p-t-10">
+                                                                        <div class="media-left">
+                                                                            <img class="media-object m-r-10" src="..\files\assets\images\logo-blue.png" alt="Generic placeholder image">
+                                                                        </div>
+                                                                        <div class="media-body">
+                                                                            <div class="company-name">
+                                                                                <p><a href="#!">UX/UI web Designer</a></p>
+                                                                                <span class="text-muted f-14">December 16, 2017</span></div>
+                                                                                <p class="text-muted">lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                                                                            </div>
+                                                                            <span class="media-right label-main">
+                                                                                <label class="label bg-primary">Updates</label>
+                                                                            </span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-12 col-xl-6">
+                                                                        <div class="media p-t-10">
+                                                                            <div class="media-left">
+                                                                                <img class="media-object m-r-10" src="..\files\assets\images\logo-blue.png" alt="Generic placeholder image">
+                                                                            </div>
+                                                                            <div class="media-body">
+                                                                                <div class="company-name">
+                                                                                    <p><a href="#!">Developer</a></p>
+                                                                                    <span class="text-muted f-14">December 16, 2017</span></div>
+                                                                                    <p class="text-muted">lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                                                                                </div>
+                                                                                <span class="media-right label-main">
+                                                                                    <label class="label bg-danger">2 week ago</label>
+                                                                                </span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- Similar Jobs card end -->
+                                                        </div>
+                                                        <!-- Left column end -->
+                                                        <!-- right column start -->
+                                                        <div class="col-lg-12 col-xl-3">
+                                                            <!-- Filter card start -->
+                                                            <div class="card">
+                                                                <div class="card-header">
+                                                                    <h5><i class="icofont icofont-filter m-r-5"></i>Filter</h5>
+                                                                </div>
+                                                                <div class="card-block">
+                                                                    <form action="#">
+                                                                        <div class="form-group row">
+                                                                            <div class="col-sm-12">
+                                                                                <input type="text" class="form-control" placeholder="Job-title">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="form-group row">
+                                                                            <div class="col-sm-12">
+                                                                                <input type="text" class="form-control" placeholder="Location">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="form-group row">
+                                                                            <div class="col-sm-12">
+                                                                                <select class="form-control">
+                                                                                    <option>Select Job Type</option>
+                                                                                    <option>Full Time</option>
+                                                                                    <option>Part Time</option>
+                                                                                    <option>Remote</option>
+                                                                                </select>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="text-right">
+                                                                            <button type="submit" class="btn btn-primary btn-sm">
+                                                                                <i class="icofont icofont-job-search m-r-5"></i> Job Find
+                                                                            </button>
+                                                                        </div>
+                                                                    </form>
+                                                                </div>
+                                                            </div>
+                                                            <!-- Filter card end -->
+                                                            <!-- Location card start -->
+                                                            <div class="card job-right-header">
+                                                                <div class="card-header">
+                                                                    <h5>Location</h5>
+                                                                    <div class="card-header-right">
+                                                                        <label class="label label-danger">Add</label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="card-block">
+                                                                    <form action="#">
+                                                                        <div class="checkbox-fade fade-in-primary">
+                                                                            <label>
+                                                                                <input type="checkbox" value="">
+                                                                                <span class="cr">
+                                                                                    <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                                                </span>
+                                                                            </label>
+                                                                            <div>Amsterdam, North Holland Province, Netherlands</div>
+                                                                        </div>
+                                                                        <div class="checkbox-fade fade-in-primary">
+                                                                            <label>
+                                                                                <input type="checkbox" value="">
+                                                                                <span class="cr">
+                                                                                    <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                                                </span>
+                                                                            </label>
+                                                                            <div>Koog aan de Zaan, North Holland Province, Netherlands</div>
+                                                                        </div>
+                                                                        <div class="checkbox-fade fade-in-primary">
+                                                                            <label>
+                                                                                <input type="checkbox" value="">
+                                                                                <span class="cr">
+                                                                                    <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                                                </span>
+                                                                            </label>
+                                                                            <div>Amsterdam Binnenstad en Oostelijk Havengebied, North Holland Province, Netherlands</div>
+                                                                        </div>
+                                                                        <div class="checkbox-fade fade-in-primary">
+                                                                            <label>
+                                                                                <input type="checkbox" value="">
+                                                                                <span class="cr">
+                                                                                    <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                                                </span>
+                                                                            </label>
+                                                                            <div>Hoofddorp, North Holland Province, Netherlands</div>
+                                                                        </div>
+                                                                        <div class="checkbox-fade fade-in-primary">
+                                                                            <label>
+                                                                                <input type="checkbox" value="">
+                                                                                <span class="cr">
+                                                                                    <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                                                </span>
+                                                                            </label>
+                                                                            <div>Alkmaar, North Holland Province, Netherlands</div>
+                                                                        </div>
+                                                                    </form>
+                                                                </div>
+
+                                                            </div>
+                                                            <!-- Location card end -->
+                                                            <!-- Job Title card start -->
+                                                            <div class="card job-right-header">
+                                                                <div class="card-header">
+                                                                    <h5>Job Title</h5>
+                                                                    <div class="card-header-right">
+                                                                        <label class="label label-danger">Add</label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="card-block">
+                                                                    <form action="#">
+                                                                        <div class="checkbox-fade fade-in-primary">
+                                                                            <label>
+                                                                                <input type="checkbox" value="">
+                                                                                <span class="cr">
+                                                                                    <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                                                </span>
+                                                                            </label>
+                                                                            <div>
+                                                                                Developer
+                                                                                <span class="text-muted">(30)</span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="checkbox-fade fade-in-primary">
+                                                                            <label>
+                                                                                <input type="checkbox" value="">
+                                                                                <span class="cr">
+                                                                                    <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                                                </span>
+                                                                            </label>
+                                                                            <div>
+                                                                                Front end designer
+                                                                                <span class="text-muted">(48)</span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="checkbox-fade fade-in-primary">
+                                                                            <label>
+                                                                                <input type="checkbox" value="">
+                                                                                <span class="cr">
+                                                                                    <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                                                </span>
+                                                                            </label>
+                                                                            <div>
+                                                                                UX designer
+                                                                                <span class="text-muted">(37)</span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="checkbox-fade fade-in-primary">
+                                                                            <label>
+                                                                                <input type="checkbox" value="">
+                                                                                <span class="cr">
+                                                                                    <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                                                </span>
+                                                                            </label>
+                                                                            <div>
+                                                                                Software engineer
+                                                                                <span class="text-muted">(57)</span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="checkbox-fade fade-in-primary">
+                                                                            <label>
+                                                                                <input type="checkbox" value="">
+                                                                                <span class="cr">
+                                                                                    <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                                                </span>
+                                                                            </label>
+                                                                            <div>
+                                                                                PHP developer
+                                                                                <span class="text-muted">(60)</span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </form>
+                                                                </div>
+
+                                                            </div>
+                                                            <!-- Job Title card end -->
+                                                            <!-- Specific Skills card start -->
+                                                            <div class="card job-right-header">
+                                                                <div class="card-header">
+                                                                    <h5>Specific Skills</h5>
+                                                                    <div class="card-header-right">
+                                                                        <label class="label label-danger">Add</label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="card-block">
+                                                                    <form action="#">
+                                                                        <div class="checkbox-fade fade-in-primary">
+                                                                            <label>
+                                                                                <input type="checkbox" value="">
+                                                                                <span class="cr">
+                                                                                    <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                                                </span>
+                                                                            </label>
+                                                                            <div>
+                                                                                HTML / CSS / SCSS
+                                                                                <span class="text-muted">(30)</span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="checkbox-fade fade-in-primary">
+                                                                            <label>
+                                                                                <input type="checkbox" value="">
+                                                                                <span class="cr">
+                                                                                    <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                                                </span>
+                                                                            </label>
+                                                                            <div>
+                                                                                Javascript
+                                                                                <span class="text-muted">(48)</span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="checkbox-fade fade-in-primary">
+                                                                            <label>
+                                                                                <input type="checkbox" value="">
+                                                                                <span class="cr">
+                                                                                    <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                                                </span>
+                                                                            </label>
+                                                                            <div>
+                                                                                Jquery
+                                                                                <span class="text-muted">(37)</span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="checkbox-fade fade-in-primary">
+                                                                            <label>
+                                                                                <input type="checkbox" value="">
+                                                                                <span class="cr">
+                                                                                    <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                                                </span>
+                                                                            </label>
+                                                                            <div>
+                                                                                Angular JS
+                                                                                <span class="text-muted">(57)</span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="checkbox-fade fade-in-primary">
+                                                                            <label>
+                                                                                <input type="checkbox" value="">
+                                                                                <span class="cr">
+                                                                                    <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                                                </span>
+                                                                            </label>
+                                                                            <div>
+                                                                                Node js
+                                                                                <span class="text-muted">(60)</span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </form>
+                                                                </div>
+
+                                                            </div>
+                                                            <!-- Specific Skills card end -->
+                                                            <!-- Date Posted card start -->
+                                                            <div class="card job-right-header">
+                                                                <div class="card-header">
+                                                                    <h5>Date Posted</h5>
+                                                                    <div class="card-header-right">
+                                                                        <label class="label label-danger">Add</label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="card-block">
+                                                                    <form action="#">
+                                                                        <div class="form-radio">
+                                                                            <div class="radio radiofill radio-inline">
+                                                                                <label>
+                                                                                    <input type="radio" name="radio" checked="checked">
+                                                                                    <i class="helper"></i> Today
+                                                                                    <span class="text-muted">(30)</span>
+                                                                                </label>
+                                                                            </div>
+                                                                            <div class="radio radiofill radio-inline">
+                                                                                <label>
+                                                                                    <input type="radio" name="radio">
+                                                                                    <i class="helper"></i> Yesterday
+                                                                                    <span class="text-muted">(85)</span>
+                                                                                </label>
+                                                                            </div>
+                                                                            <div class="radio radiofill radio-inline">
+                                                                                <label>
+                                                                                    <input type="radio" name="radio">
+                                                                                    <i class="helper"></i> Last-week
+                                                                                    <span class="text-muted">(184)</span>
+                                                                                </label>
+                                                                            </div>
+                                                                            <div class="radio radiofill radio-inline">
+                                                                                <label>
+                                                                                    <input type="radio" name="radio">
+                                                                                    <i class="helper"></i> Last month
+                                                                                    <span class="text-muted">(195)</span>
+                                                                                </label>
+                                                                            </div>
+                                                                        </div>
+                                                                    </form>
+                                                                </div>
+
+                                                            </div>
+                                                            <!-- Date Posted card end -->
+                                                            <!-- Company card start -->
+                                                            <div class="card job-right-header">
+                                                                <div class="card-header">
+                                                                    <h5>Company</h5>
+                                                                    <div class="card-header-right">
+                                                                        <label class="label label-danger">Add</label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="card-block">
+                                                                    <form action="#">
+                                                                        <div class="checkbox-fade fade-in-primary">
+                                                                            <label>
+                                                                                <input type="checkbox" value="">
+                                                                                <span class="cr">
+                                                                                    <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                                                </span>
+                                                                            </label>
+                                                                            <div>
+                                                                               Phoenixcoded
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="checkbox-fade fade-in-primary">
+                                                                            <label>
+                                                                                <input type="checkbox" value="">
+                                                                                <span class="cr">
+                                                                                    <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                                                </span>
+                                                                            </label>
+                                                                            <div>
+                                                                                Peacock
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="checkbox-fade fade-in-primary">
+                                                                            <label>
+                                                                                <input type="checkbox" value="">
+                                                                                <span class="cr">
+                                                                                    <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                                                </span>
+                                                                            </label>
+                                                                            <div>
+                                                                                Amazon
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="checkbox-fade fade-in-primary">
+                                                                            <label>
+                                                                                <input type="checkbox" value="">
+                                                                                <span class="cr">
+                                                                                    <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                                                </span>
+                                                                            </label>
+                                                                            <div>
+                                                                                Flipkart
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="checkbox-fade fade-in-primary">
+                                                                            <label>
+                                                                                <input type="checkbox" value="">
+                                                                                <span class="cr">
+                                                                                    <i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+                                                                                </span>
+                                                                            </label>
+                                                                            <div>
+                                                                                Snapdeal
+                                                                            </div>
+                                                                        </div>
+                                                                    </form>
+                                                                </div>
+
+                                                            </div>
+                                                            <!-- Company card end -->
+                                                            <!-- Recent Searches card start -->
+                                                            <div class="card job-right-header">
+                                                                <div class="card-header">
+                                                                    <h5>Recent Searches</h5>
+                                                                    <div class="card-header-right">
+                                                                        <label class="label label-danger">Add</label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="card-block">
+                                                                    <form action="#">
+                                                                        <div>
+                                                                            Senior Web designer
+                                                                            <p>Amsterdam</p>
+                                                                        </div>
+                                                                        <div>
+                                                                            PHP Devloper
+                                                                            <p>Amsterdam</p>
+                                                                        </div>
+                                                                        <div>
+                                                                            Fresher UI designer
+                                                                            <p>Amsterdam</p>
+                                                                        </div>
+                                                                        <div>
+                                                                            Wordpress devloper
+                                                                            <p>Amsterdam</p>
+                                                                        </div>
+                                                                        <div>
+                                                                            Opencart devloper
+                                                                            <p>Amsterdam</p>
+                                                                        </div>
+                                                                    </form>
+                                                                </div>
+                                                            </div>
+                                                            <!-- Recent Searches card end -->
+                                                        </div>
+                                                        <!-- right column end -->
+                                                    </div>
+                                                </div>
+                                                <!-- Page body start -->
+                                            </div>
+                                        </div>
+                                        <!-- Main-body end -->
+
+                                        <div id="styleSelector">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- Warning Section Starts -->
+                <!-- Older IE warning message -->
+    <!--[if lt IE 10]>
+<div class="ie-warning">
+    <h1>Warning!!</h1>
+    <p>You are using an outdated version of Internet Explorer, please upgrade <br/>to any of the following web browsers to access this website.</p>
+    <div class="iew-container">
+        <ul class="iew-download">
+            <li>
+                <a href="http://www.google.com/chrome/">
+                    <img src="../files/assets/images/browser/chrome.png" alt="Chrome">
+                    <div>Chrome</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.mozilla.org/en-US/firefox/new/">
+                    <img src="../files/assets/images/browser/firefox.png" alt="Firefox">
+                    <div>Firefox</div>
+                </a>
+            </li>
+            <li>
+                <a href="http://www.opera.com">
+                    <img src="../files/assets/images/browser/opera.png" alt="Opera">
+                    <div>Opera</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.apple.com/safari/">
+                    <img src="../files/assets/images/browser/safari.png" alt="Safari">
+                    <div>Safari</div>
+                </a>
+            </li>
+            <li>
+                <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">
+                    <img src="../files/assets/images/browser/ie.png" alt="">
+                    <div>IE (9 & above)</div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <p>Sorry for the inconvenience!</p>
+</div>
+<![endif]-->
+<!-- Warning Section Ends -->
+<!-- Required Jquery -->
+<script type="text/javascript" src="..\files\bower_components\jquery\js\jquery.min.js"></script>
+<script type="text/javascript" src="..\files\bower_components\jquery-ui\js\jquery-ui.min.js"></script>
+<script type="text/javascript" src="..\files\bower_components\popper.js\js\popper.min.js"></script>
+<script type="text/javascript" src="..\files\bower_components\bootstrap\js\bootstrap.min.js"></script>
+<!-- jquery slimscroll js -->
+<script type="text/javascript" src="..\files\bower_components\jquery-slimscroll\js\jquery.slimscroll.js"></script>
+<!-- modernizr js -->
+<script type="text/javascript" src="..\files\bower_components\modernizr\js\modernizr.js"></script>
+<script type="text/javascript" src="..\files\bower_components\modernizr\js\css-scrollbars.js"></script>
+
+<!-- Select 2 js -->
+<script type="text/javascript" src="..\files\bower_components\select2\js\select2.full.min.js"></script>
+<script type="text/javascript" src="..\files\assets\js\jquery.quicksearch.js"></script>
+<!--<script type="text/javascript" src="../files/assets/pages/advance-elements/select2-custom.js"></script>-->
+<!-- i18next.min.js -->
+<script type="text/javascript" src="..\files\bower_components\i18next\js\i18next.min.js"></script>
+<script type="text/javascript" src="..\files\bower_components\i18next-xhr-backend\js\i18nextXHRBackend.min.js"></script>
+<script type="text/javascript" src="..\files\bower_components\i18next-browser-languagedetector\js\i18nextBrowserLanguageDetector.min.js"></script>
+<script type="text/javascript" src="..\files\bower_components\jquery-i18next\js\jquery-i18next.min.js"></script>
+<!-- Custom js -->
+
+<script src="..\files\assets\js\pcoded.min.js"></script>
+<script src="..\files\assets\js\vartical-layout.min.js"></script>
+<script src="..\files\assets\js\jquery.mCustomScrollbar.concat.min.js"></script>
+      <script type="text/javascript" src="..\files\assets\js\script.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+</body>
+
+</html>
