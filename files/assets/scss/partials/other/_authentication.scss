@@ -1,0 +1,51 @@
+/* =======================================
+      Authentication-page css start
+ ========================================= */
+
+.login-block{
+    padding: 30px 0;
+    margin: 0 auto;
+    background: url(../images/auth/bg.jpg) no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    .auth-box {
+        margin: 20px auto 0 auto;
+        max-width: 450px;
+        .confirm h3 {
+            color: $primary-color;
+            font-size: 34px;
+        }
+        i.icofont-check-circled {
+            font-size: 42px;
+        }
+    }
+    &.offline-404{
+        .auth-box {
+            max-width: 650px;
+            h1{
+                color: #2c3e50;
+                font-size: 160px;
+                font-weight: 600;
+                letter-spacing: 5px;
+                text-shadow: 3px -2px 4px rgba(128, 128, 128, 0.57);
+            }
+        }
+    }
+    &.with-header{
+        min-height: calc(100vh - 56px);
+    }
+}
+
+.footer{
+    background-color: $inverse-color;
+    color: #fff;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    p{
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,69 @@
+// General variables
+$theme-bg-color: #f3f3f3;
+$theme-font-size:0.875em;
+$theme-font-color: #666;
+$theme-font-family:"Open Sans",sans-serif;
+// Theme colors variables
+$primary-color:#01a9ac;
+$warning-color:#fe9365;
+$default-color:#e0e0e0;
+$danger-color: #fe5d70;
+$success-color:#0ac282;
+$inverse-color:#404E67;
+$info-color :#2DCEE3;
+$disabled-color:#87909f;
+$white-txt: #fff;
+$theme-border:#ddd;
+$light-color:#666;
+$facebook:#3B5997;
+$twitter:#42C0FB;
+$dribble:#EC4A89;
+$instagram:#AA7C62;
+$youtube:#E0291D;
+$theme-color:(
+    primary: (
+        base: $primary-color,
+        hover: lighten($primary-color, 10%),
+        active: darken($primary-color, 12%),
+        trans: transparentize($primary-color, 0.5)),
+    warning: (
+        base: $warning-color,
+        hover: lighten($warning-color, 10%),
+        active: darken($warning-color, 12%),
+        trans: transparentize($warning-color, 0.5)),
+    default: (
+        base: $default-color,
+        hover: lighten($default-color, 0%),
+        active: darken($default-color, 12%),
+        trans: transparentize($default-color, 0.5)),
+    danger: (
+        base: $danger-color,
+        hover: lighten($danger-color, 10%),
+        active: darken($danger-color, 12%),
+        trans: transparentize($danger-color, 0.5)),
+    success: (
+        base: $success-color,
+        hover: lighten($success-color, 10%),
+        active: darken($success-color, 12%),
+        trans: transparentize($success-color, 0.5)),
+    inverse: ( base: $inverse-color,
+        hover: lighten($inverse-color, 10%),
+        active: darken($inverse-color, 12%),
+        trans: transparentize($inverse-color, 0.5)),
+    info: (
+        base: $info-color,
+        hover: lighten($info-color, 10%),
+        active: darken($info-color, 12%),
+        trans: transparentize($info-color, 0.5)),
+    disabled: (
+        base: $disabled-color,
+        hover: lighten($disabled-color, 10%),
+        active: darken($disabled-color, 12%),
+        trans: transparentize($disabled-color, 0.5))
+);
+@function theme-color($color-name, $color-variant) {
+    @return map-get(map-get($theme-color, $color-name), $color-variant);
+}
+
+// Elements color
+$border-color:#ddd;

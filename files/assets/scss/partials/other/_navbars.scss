@@ -1,0 +1,497 @@
+/**  =====================
+      Navbar-varients css start
+==========================  **/
+.pcoded .navbar-page{
+    .pcoded-header{
+        position: relative !important;
+    }
+}
+.light-nav-border {
+    background-color: $white-txt;
+    border: 1px solid #ddd;
+    padding: 15px;
+    a {
+        color: #222;
+    }
+    li.active {
+        a {
+            color: $primary-color;
+            font-weight: 600;
+        }
+    }
+    .nav-item {
+        margin-left: 15px;
+        &:hover .navbar-varient-submenu {
+            -webkit-transform: translateY(5px);
+            transform: translateY(5px);
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+    .navbar-varient-submenu {
+        box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.03), 0 -2px 1px -2px rgba(0, 0, 0, 0.02), 0 0 0 -1px rgba(0, 0, 0, 0.03);
+        border: 1px solid #ddd;
+        position: absolute;
+        width: 16em;
+        background-color: #fff;
+        transition: all linear 0.3s;
+        -webkit-transform: translateY(30px);
+        transform: translateY(30px);
+        opacity: 0;
+        visibility: hidden;
+        z-index: 999;
+        a {
+            padding: 10px;
+            display: block;
+            transition: background-color linear 0.3s;
+            &:hover {
+                background-color: #f1f1f1;
+            }
+        }
+    }
+    .profile-sub-menu {
+        right: 10px;
+        i {
+            margin-right: 10px;
+        }
+    }
+}
+
+.primary-nav {
+    @extend .light-nav-border;
+    background-color: lighten($primary-color, 20%);
+    a {
+        color: #666;
+    }
+    li.active {
+        a {
+            color: #666;
+            font-weight: 600;
+        }
+    }
+    .navbar-varient-submenu {
+        a {
+            color: #222;
+        }
+    }
+}
+
+.warning-nav {
+    @extend .light-nav-border;
+    background-color: lighten($warning-color, 20%);
+    a {
+        color: #666;
+    }
+    li.active {
+        a {
+            color: #666;
+            font-weight: 600;
+        }
+    }
+    .navbar-varient-submenu {
+        a {
+            color: #222;
+        }
+    }
+}
+
+.success-nav {
+    @extend .light-nav-border;
+    background-color: lighten($success-color, 20%);
+    a {
+        color: #666;
+    }
+    li.active {
+        a {
+            color: #666;
+            font-weight: 600;
+        }
+    }
+    .navbar-varient-submenu {
+        a {
+            color: #222;
+        }
+    }
+}
+
+.info-nav {
+    @extend .light-nav-border;
+    background-color: lighten($info-color, 20%);
+    a {
+        color: #666;
+    }
+    li.active {
+        a {
+            color: #666;
+            font-weight: 600;
+        }
+    }
+    .navbar-varient-submenu {
+        a {
+            color: #222;
+        }
+    }
+}
+
+.danger-nav {
+    @extend .light-nav-border;
+    background-color: lighten($danger-color, 25%);
+    a {
+        color: #666;
+    }
+    li.active {
+        a {
+            color: #666;
+            font-weight: 600;
+        }
+    }
+    .navbar-varient-submenu {
+        a {
+            color: #222;
+        }
+    }
+}
+
+.bg-dark {
+    background-color: #2C3E50;
+    color: #fff;
+}
+
+.navbar-dark {
+    .navbar-brand,
+    .navbar-toggler {
+        color: rgba(255, 255, 255, .9);
+    }
+    .navbar-nav {
+        .active>.nav-link,
+        .navbar-dark .navbar-nav .nav-link.active,
+        .navbar-dark .navbar-nav .nav-link.open,
+        .navbar-light .navbar-nav .open>.nav-link {
+            color: rgba(255, 255, 255, .9);
+        }
+        .nav-link {
+            color: rgba(255, 255, 255, 0.5);
+            &.disabled {
+                color: rgba(255, 255, 255, 0.3);
+            }
+        }
+    }
+}
+
+.navbar-dark button.btn {
+    color: #fff;
+    border-color: #fff;
+}
+
+.dark-nav-border {
+    border: 1px solid #2C3E50;
+    padding: 15px;
+}
+
+.primary-nav,
+.warning-nav,
+.success-nav,
+.info-nav,
+.danger-nav {
+    border: none;
+    padding: 15px;
+}
+
+.dark-nav-border a,
+.primary-nav a,
+.warning-nav a,
+.success-nav a,
+.info-nav a,
+.danger-nav a {
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.dark-nav-border .navbar-varient-submenu,
+.primary-nav .navbar-varient-submenu,
+.warning-nav .navbar-varient-submenu,
+.success-nav .navbar-varient-submenu,
+.info-nav .navbar-varient-submenu,
+.danger-nav .navbar-varient-submenu {
+    box-shadow: -2 0 1px 2px rgba(0, 0, 0, 0.03), 0 -2px 1px -2px rgba(0, 0, 0, 0.02), 0 0 0 -1px rgba(0, 0, 0, 0.03);
+    border: 1px solid #ddd;
+    position: absolute;
+    width: 16em;
+    background-color: #fff;
+    transition: all linear 0.3s;
+    -webkit-transform: translateY(30px);
+    transform: translateY(30px);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 999;
+}
+
+.dark-nav-border .nav-item:hover .navbar-varient-submenu,
+.primary-nav .nav-item:hover .navbar-varient-submenu,
+.warning-nav .nav-item:hover .navbar-varient-submenu,
+.success-nav .nav-item:hover .navbar-varient-submenu,
+.info-nav .nav-item:hover .navbar-varient-submenu,
+.danger-nav .nav-item:hover .navbar-varient-submenu,
+.dark-nav-border .main-menu .main-menu-content .nav-item .tree-1 a:hover .navbar-varient-submenu,
+.main-menu .main-menu-content .nav-item .tree-1 .dark-nav-border a:hover .navbar-varient-submenu,
+.primary-nav .main-menu .main-menu-content .nav-item .tree-1 a:hover .navbar-varient-submenu,
+.main-menu .main-menu-content .nav-item .tree-1 .primary-nav a:hover .navbar-varient-submenu,
+.warning-nav .main-menu .main-menu-content .nav-item .tree-1 a:hover .navbar-varient-submenu,
+.main-menu .main-menu-content .nav-item .tree-1 .warning-nav a:hover .navbar-varient-submenu,
+.success-nav .main-menu .main-menu-content .nav-item .tree-1 a:hover .navbar-varient-submenu,
+.main-menu .main-menu-content .nav-item .tree-1 .success-nav a:hover .navbar-varient-submenu,
+.info-nav .main-menu .main-menu-content .nav-item .tree-1 a:hover .navbar-varient-submenu,
+.main-menu .main-menu-content .nav-item .tree-1 .info-nav a:hover .navbar-varient-submenu,
+.danger-nav .main-menu .main-menu-content .nav-item .tree-1 a:hover .navbar-varient-submenu,
+.main-menu .main-menu-content .nav-item .tree-1 .danger-nav a:hover .navbar-varient-submenu,
+.dark-nav-border .main-menu .main-menu-content .nav-item .tree-2 a:hover .navbar-varient-submenu,
+.main-menu .main-menu-content .nav-item .tree-2 .dark-nav-border a:hover .navbar-varient-submenu,
+.primary-nav .main-menu .main-menu-content .nav-item .tree-2 a:hover .navbar-varient-submenu,
+.main-menu .main-menu-content .nav-item .tree-2 .primary-nav a:hover .navbar-varient-submenu,
+.warning-nav .main-menu .main-menu-content .nav-item .tree-2 a:hover .navbar-varient-submenu,
+.main-menu .main-menu-content .nav-item .tree-2 .warning-nav a:hover .navbar-varient-submenu,
+.success-nav .main-menu .main-menu-content .nav-item .tree-2 a:hover .navbar-varient-submenu,
+.main-menu .main-menu-content .nav-item .tree-2 .success-nav a:hover .navbar-varient-submenu,
+.info-nav .main-menu .main-menu-content .nav-item .tree-2 a:hover .navbar-varient-submenu,
+.main-menu .main-menu-content .nav-item .tree-2 .info-nav a:hover .navbar-varient-submenu,
+.danger-nav .main-menu .main-menu-content .nav-item .tree-2 a:hover .navbar-varient-submenu,
+.main-menu .main-menu-content .nav-item .tree-2 .danger-nav a:hover .navbar-varient-submenu {
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+    opacity: 1;
+    visibility: visible;
+}
+
+.dark-nav-border .navbar-varient-submenu a:hover,
+.primary-nav .navbar-varient-submenu a:hover,
+.warning-nav .navbar-varient-submenu a:hover,
+.success-nav .navbar-varient-submenu a:hover,
+.info-nav .navbar-varient-submenu a:hover,
+.danger-nav .navbar-varient-submenu a:hover {
+    background-color: #f1f1f1;
+}
+
+.dark-nav-border .navbar-varient-submenu a,
+.primary-nav .navbar-varient-submenu a,
+.warning-nav .navbar-varient-submenu a,
+.success-nav .navbar-varient-submenu a,
+.info-nav .navbar-varient-submenu a,
+.danger-nav .navbar-varient-submenu a {
+    padding: 10px;
+    display: block;
+    transition: background-color linear 0.3s;
+}
+
+.dark-nav-border li.active a,
+.primary-nav li.active a,
+.warning-nav li.active a,
+.success-nav li.active a,
+.info-nav li.active a,
+.danger-nav li.active a {
+    color: #666;
+    font-weight: 600;
+}
+
+.dark-nav-border .profile-sub-menu,
+.primary-nav .profile-sub-menu,
+.warning-nav .profile-sub-menu,
+.success-nav .profile-sub-menu,
+.info-nav .profile-sub-menu,
+.danger-nav .profile-sub-menu {
+    right: 10px;
+}
+
+.primary-nav-dark {
+    @extend .dark-nav-border;
+    background-color: darken($primary-color, 10%);
+    border: none;
+    a {
+        color: #fff;
+    }
+    li.active {
+        a {
+            color: #fff;
+            font-weight: 600;
+        }
+    }
+    .navbar-varient-submenu {
+        a {
+            color: #fff;
+        }
+    }
+    .nav-link.disabled {
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .navbar-varient-submenu {
+        background-color: darken($primary-color, 10%);
+        border-color: darken($primary-color, 15%);
+        a:hover {
+            background-color: darken($primary-color, 15%);
+        }
+    }
+}
+
+.warning-nav-dark {
+    @extend .dark-nav-border;
+    background-color: darken($warning-color, 10%);
+    border: none;
+    a {
+        color: #fff;
+    }
+    li.active {
+        a {
+            color: #fff;
+            font-weight: 600;
+        }
+    }
+    .navbar-varient-submenu {
+        a {
+            color: #fff;
+        }
+    }
+    .nav-link.disabled {
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .navbar-varient-submenu {
+        background-color: darken($warning-color, 10%);
+        border-color: darken($warning-color, 15%);
+        a:hover {
+            background-color: darken($warning-color, 15%);
+        }
+    }
+}
+
+.success-nav-dark {
+    @extend .dark-nav-border;
+    background-color: darken($success-color, 10%);
+    border: none;
+    a {
+        color: #fff;
+    }
+    li.active {
+        a {
+            color: #fff;
+            font-weight: 600;
+        }
+    }
+    .navbar-varient-submenu {
+        a {
+            color: #fff;
+        }
+    }
+    .nav-link.disabled {
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .navbar-varient-submenu {
+        background-color: darken($success-color, 10%);
+        border-color: darken($success-color, 15%);
+        a:hover {
+            background-color: darken($success-color, 15%);
+        }
+    }
+}
+
+.info-nav-dark {
+    @extend .dark-nav-border;
+    background-color: darken($info-color, 10%);
+    border: none;
+    a {
+        color: #fff;
+    }
+    li.active {
+        a {
+            color: #fff;
+            font-weight: 600;
+        }
+    }
+    .navbar-varient-submenu {
+        a {
+            color: #fff;
+        }
+    }
+    .nav-link.disabled {
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .navbar-varient-submenu {
+        background-color: darken($info-color, 10%);
+        border-color: darken($info-color, 15%);
+        a:hover {
+            background-color: darken($info-color, 15%);
+        }
+    }
+}
+
+.danger-nav-dark {
+    @extend .dark-nav-border;
+    background-color: darken($danger-color, 10%);
+    border: none;
+    a {
+        color: #fff;
+    }
+    li.active {
+        a {
+            color: #fff;
+            font-weight: 600;
+        }
+    }
+    .navbar-varient-submenu {
+        a {
+            color: #fff;
+        }
+    }
+    .nav-link.disabled {
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .navbar-varient-submenu {
+        background-color: darken($danger-color, 10%);
+        border-color: darken($danger-color, 15%);
+        a:hover {
+            background-color: darken($danger-color, 15%);
+        }
+    }
+}
+
+.nav-item label.badge-top-left {
+    right: 4.4%;
+    bottom: 38px;
+}
+
+.nav-item .radio-inline {
+    margin-top: 7px;
+}
+
+.primary-nav-dark,
+.warning-nav-dark,
+.success-nav-dark,
+.info-nav-dark,
+.danger-nav-dark {
+    button {
+        border-color: #fff;
+    }
+    i {
+        color: #fff;
+    }
+}
+
+.primary-nav,
+.warning-nav,
+.success-nav,
+.info-nav,
+.danger-nav {
+    button {
+        border-color: rgba(0, 0, 0, 0.6) !important;
+    }
+    i {
+        color: rgba(0, 0, 0, 0.6) !important;
+    }
+}
+
+.light-nav-border {
+    button {
+        border-color: rgba(0, 0, 0, 0.1);
+    }
+    i {
+        color: rgba(0, 0, 0, 0.4);
+    }
+}
+
+/**====== Navbar-varients css end ======**/

@@ -1,0 +1,494 @@
+/**  =====================
+      Chatting css start
+==========================  **/
+.chat-bg{
+    background-image: url('../images/chat-bg.jpg');
+    background-size: cover;
+        background-blend-mode: overlay;
+    background-color: rgba(255, 255, 255, 0.45);
+}
+#main-chat {
+    .chat-single-box.active {
+        .chat-header {
+            background-color: $primary-color;
+            a {
+                color: #fff;
+            }
+        }
+    }
+    .chat-single-box {
+        .chat-header {
+            a {
+                color: #fff;
+            }
+        }
+    }
+    .chat-box ul.boxs li.chat-single-box .chat-header.custom-collapsed {
+        position: absolute;
+        bottom: 0;
+        width: 300px;
+    }
+    .minimized {
+        background-color: #1e2730;
+    }
+    .user-groups {
+        padding-left: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 20px;
+        .userlist-box {
+            border-bottom: none;
+            &:last-child {
+                padding-bottom: 0;
+                margin-bottom: 0;
+            }
+        }
+        .media {
+            padding-left: 0;
+        }
+        h6 {
+            font-size: 15px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        li {
+            margin-bottom: 20px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+            &.work {
+                position: relative;
+                padding-left: 20px;
+                &:before {
+                    content: '';
+                    position: absolute;
+                    height: 10px;
+                    width: 10px;
+                    background-color: $success-color;
+                    border-radius: 50px;
+                    left: 0;
+                    top: 6px;
+                }
+            }
+            &.frnds {
+                @extend .work;
+                &:before {
+                    background-color: $danger-color;
+                }
+            }
+        }
+    }
+}
+
+.user-box {
+    height: 100%;
+}
+
+.close {
+    opacity: 1;
+}
+
+.write-msg {
+    padding: 12px;
+    bottom: 10px;
+    border-top: 1px solid #ddd;
+    #paper-btn {
+        i {
+            font-size: 18px;
+            margin-right: 0;
+            cursor: pointer;
+        }
+    }
+}
+
+.chat-box .secondary:active:hover {
+    background-color: #fff;
+}
+
+#main-chat .chat-box ul.boxs li.minimized {
+    height: 30px;
+    width: 30px;
+    bottom: 0;
+    position: absolute;
+    left: -50px;
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+}
+
+#main-chat .chat-box ul.boxs li.minimized .count {
+    color: #fff;
+    text-align: center;
+    margin: 5px;
+}
+
+#main-chat .chat-box ul.boxs li.minimized .chat-dropdown {
+    list-style: none;
+    display: none;
+    position: absolute;
+    background-color: #f5f5f5;
+    -webkit-box-shadow: 0 1px 8px 0 rgba(5, 5, 5, 0.5);
+    -moz-box-shadow: 0 1px 8px 0 rgba(5, 5, 5, 0.5);
+    box-shadow: 0 1px 8px 0 rgba(5, 5, 5, 0.5);
+    width: 150px;
+    z-index: 100;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 5px 0;
+}
+
+#main-chat .chat-box ul.boxs li.minimized .chat-dropdown li {
+    padding: 2px 5px;
+}
+
+#main-chat .chat-box ul.boxs li.minimized .chat-dropdown li div {
+    display: inline-block;
+}
+
+#main-chat .chat-box ul.boxs li.minimized .chat-dropdown li .username {
+    width: 85%;
+    height: 22px;
+}
+
+#main-chat .chat-box ul.boxs li.minimized .chat-dropdown li .remove {
+    width: 13%;
+    padding: 2PX 4PX;
+    float: right;
+}
+
+#main-chat .chat-box ul.boxs li.minimized .chat-dropdown li .remove:hover {
+    background-color: #c0c0c0 !important;
+}
+
+#main-chat .chat-box ul.boxs li.minimized .chat-dropdown li:hover {
+    color: black;
+}
+
+#main-chat .chat-box ul.boxs li.hidden {
+    display: none;
+}
+
+.chat-single-box {
+    height: 440px;
+    float: right;
+    width: 300px;
+    margin-right: 15px;
+    direction: ltr;
+    z-index: 999;
+    bottom: 0;
+    .chat-header {
+        background-color: $default-color;
+        color: #fff;
+        .close{
+            margin-top: 0;
+        }
+    }
+}
+
+.box-live-status {
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    border: 1px solid;
+}
+
+.chat-msg-img {
+    height: 50px;
+    width: 50px;
+}
+
+.msg-reply {
+    padding: 5px;
+    position: relative;
+    right: 10px;
+    border-radius: 2px;
+    top: 6px;
+    margin-bottom: 10px;
+}
+
+.header-users {
+    right: 0;
+    top: 103px;
+    width: 300px;
+    height: 100%;
+}
+
+.users {
+    right: 0;
+    top: 103px;
+    width: 300px;
+    height: 100%;
+}
+
+.p-chat-user {
+    position: fixed;
+    top: 56px;
+    z-index: 99;
+    border-left: 1px solid #ccc;
+}
+
+.users-main {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    border-radius: 0px;
+}
+
+.userlist-box {
+    cursor: pointer;
+    border-bottom: 1px solid #efefef;
+    .media-left {
+        padding-right: 10px;
+    }
+}
+
+.users-main .media {
+    display: flex;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+}
+
+.user-box .media-object {
+    height: 45px;
+    width: 45px;
+    display: inline-block;
+}
+
+.chat-menu-content,
+.chat-menu-reply {
+    background: #f3f3f3;
+    position: relative;
+    overflow: visible;
+    border-radius: 4px;
+}
+
+.chat-menu-content:before {
+    position: absolute;
+    top: 20px;
+    left: -14px;
+    width: 0;
+    height: 0;
+    content: '';
+    border: 8px solid transparent;
+    border-right-color: #f3f3f3;
+}
+
+.chat-menu-reply:before {
+    position: absolute;
+    top: 20px;
+    right: -14px;
+    width: 0;
+    height: 0;
+    content: '';
+    border: 8px solid transparent;
+    border-left-color: $primary-color;
+}
+
+.chat-reply-box {
+    background-color: #fff;
+    position: absolute;
+    bottom: 73px;
+    width: 100%;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    border-top: 1px solid #ccc;
+}
+
+.chat-inner-header {
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+}
+
+.chat-send {
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+    border: none;
+    background-color: transparent;
+    color: $primary-color;
+    transform: rotate(45deg);
+}
+
+.showChat_inner .chat-messages {
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.chat-menu-content .chat-cont,
+.chat-menu-reply .chat-cont {
+    padding: 10px;
+}
+
+.chat-menu-content .chat-time,
+.chat-menu-reply .chat-time {
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.back_chatBox {
+    margin: 0 auto;
+    font-weight: 600;
+    i {
+        float: left;
+        position: absolute;
+        margin-top: 5px;
+        left: 20px;
+        cursor: pointer;
+    }
+}
+
+.designation {
+    cursor: pointer;
+}
+
+.extra-profile-list {
+    display: none;
+}
+
+.chat-menu-reply .chat-cont,
+.chat-menu-reply .chat-time {
+    color: #fff;
+}
+
+.chat-menu-reply {
+    background: $primary-color;
+    margin-right: 10px;
+}
+
+.users-main .media .chat-header {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.users-main .media-body div + div {
+    font-size: 12px;
+}
+
+.chat-body {
+    overflow-y: auto;
+    height: 340px;
+}
+
+.users-main-fix {
+    height: auto;
+    position: fixed;
+    bottom: 0px;
+    top: 151px;
+}
+
+.chat-footer,
+.chat-link {
+    border-color: $primary-color;
+}
+
+.chat-footer .input-group-addon {
+    padding: 7px .75rem;
+}
+
+.form-control:focus ~ .chat-send {
+    border-color: $primary-color;
+}
+
+.minimized-box {
+    padding: 5px 10px;
+}
+
+.write-msg input {
+    border-radius: 0;
+    border-right: 0;
+}
+
+.write-msg .btn {
+    box-shadow: none;
+    border-left: 0;
+    font-size: 14px;
+}
+
+.write-msg .btn-secondary:hover {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-left: 0;
+}
+
+.form-control:focus ~ .input-group-btn .btn-secondary {
+    border-color: #66afe9;
+    color: $primary-color;
+}
+
+.img-chat-profile {
+    height: 45px;
+    width: 45px;
+}
+
+.chat-minimize .chat-body,
+.chat-minimize .chat-footer {
+    display: none;
+}
+
+.chat-box {
+    margin-right: 290px;
+    height: 440px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 99;
+}
+
+.user-box .media-object,
+.friend-box .media-object {
+    height: 45px;
+    width: 45px;
+    display: inline-block;
+}
+
+.friend-box img {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.chat-header {
+    color: #222222;
+}
+
+.live-status {
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border-radius: 100%;
+    border: 1px solid;
+}
+
+// Inner chat css start
+.showChat {
+    display: none;
+}
+
+.showChat_inner {
+    position: fixed;
+    top: 56px;
+    background-color: white;
+    right: 0;
+    display: none;
+    width: 300px;
+    height: 100%;
+    z-index: 99;
+    border-left: 1px solid #ccc;
+    .img-circle {
+        border-radius: 0 !important
+    }
+}
+/**====== Chatting css end ======**/
